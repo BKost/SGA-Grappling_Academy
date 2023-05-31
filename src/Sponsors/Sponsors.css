@@ -1,0 +1,36 @@
+.sponsors-container {
+  grid-column: 1 / 4;
+  min-height: 800px;
+  /* border: 1px solid white; */
+  background-color: var(--main-background-color);
+  display: grid;
+  grid-template-columns: 8% 1fr 8%;
+  margin-bottom: 5em;
+}
+
+.sponsors-container > h2 {
+  margin-top: 0.5em;
+  grid-column: 2 / 3;
+  font-size: 4.5rem;
+  transition: all 0.3s;
+}
+
+.space-for-sponsors {
+  grid-column: 2 / 3;
+}
+
+.space-for-sponsors > h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 1.5em;
+}
+
+.space-for-sponsors > p {
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 470px) {
+  .sponsors-container > h2 {
+    font-size: 3.5rem;
+  }
+}

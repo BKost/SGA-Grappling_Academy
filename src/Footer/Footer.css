@@ -1,0 +1,28 @@
+.footer-container {
+  /* border: 1px solid white; */
+  background-color: var(--main-background-color);
+  width: 100%;
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 2em;
+}
+
+.donate > h2 {
+  font-size: 3rem;
+}
+
+.donate > p {
+  font-size: 1.6rem;
+}
+
+.made-by {
+  text-align: center;
+  align-self: flex-end;
+  margin-bottom: 2em;
+}
+
+.contact-info {
+  font-size: 1.6rem;
+  margin-top: 2em;
+}
