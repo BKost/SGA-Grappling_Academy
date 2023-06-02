@@ -9,7 +9,7 @@
   position: fixed;
   /* padding: 0 3%; */
   /* position: absolute; */
-  z-index: 4;
+  z-index: 6;
   top: 0;
   right: 0;
   width: 100%;
@@ -63,7 +63,6 @@
   top: 0;
   height: 100vh;
   transition: all 0.2s ease-in-out;
-  z-index: 2;
 }
 
 .mobile-navigation-closed {

@@ -28,8 +28,6 @@ function Navbar() {
   const [navTime, setNavTime] = useState(0);
   const [navbarHidden, setNavbarHidden] = useState(false);
 
-  console.log(navigateADCCRef.current);
-
   useEffect(() => {
     screenWidth <= 655 && setNavTime(0);
 
@@ -93,7 +91,7 @@ function Navbar() {
   }
 
   function navigate(location, offset = 90) {
-    const elementRectTop = location.current.getBoundingClientRect().top;
+    const elementRectTop = location?.current.getBoundingClientRect().top;
     const bodyRectTop = document.body.getBoundingClientRect().top;
 
     // const chooseOffset = scrollDirection === "down" ? 0 : offset;
