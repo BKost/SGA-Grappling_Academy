@@ -8,6 +8,8 @@ import AboutSGA from "./AboutSGA/AboutSGA";
 import Gallery from "./Gallery/Gallery";
 import Sponsors from "./Sponsors/Sponsors";
 import Questions from "./Questions/Questions";
+import Header from "./Homepage/Header";
+
 // import Footer from "./Footer/Footer";
 
 function App() {
@@ -15,13 +17,14 @@ function App() {
     <div className="app">
       <main className="app-container">
         <Navbar />
+        <Header />
         <Home />
-        <Courses />
+        {/* <Courses />
         <Adcc />
         <AboutSGA />
         <Gallery />
         <Sponsors />
-        <Questions />
+        <Questions /> */}
       </main>
 
       {/* <Footer /> */}

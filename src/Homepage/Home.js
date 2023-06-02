@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useContext } from "react";
 import "./Home.css";
+
 // import HomeMainImage from "../images/289429858_560559755508495_2451797915363426092_n.jpg";
 // import GrapplingImage from "../images/289268031_560886225475848_7356325068166042758_n.jpg";
 import { AppContext } from "../AppContext";
@@ -10,49 +11,52 @@ function Home() {
 
   // const homeRef = useRef(null);
 
-  const { setLogoOnScreen, setNavbarHidden, navigateHomeRef } =
-    useContext(AppContext);
+  // const { setLogoOnScreen, setNavbarHidden, navigateHomeRef } =
+  //   useContext(AppContext);
 
-  useEffect(() => {
-    const homeObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && entry.target.className === "home-header") {
-          setNavbarHidden(false);
-        } else if (
-          !entry.isIntersecting &&
-          entry.target.className === "home-header"
-        ) {
-          setNavbarHidden(true);
-        }
+  // useEffect(() => {
+  //   const homeObserver = new IntersectionObserver((entries) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting && entry.target.className === "home-header") {
+  //         setNavbarHidden(false);
+  //       } else if (
+  //         !entry.isIntersecting &&
+  //         entry.target.className === "home-header"
+  //       ) {
+  //         setNavbarHidden(true);
+  //       }
 
-        if (entry.isIntersecting && entry.target.className === "logo") {
-          setLogoOnScreen(true);
-        } else {
-          setLogoOnScreen(false);
-        }
-      });
-    });
+  //       if (entry.isIntersecting && entry.target.className === "logo") {
+  //         setLogoOnScreen(true);
+  //       } else {
+  //         setLogoOnScreen(false);
+  //       }
+  //     });
+  //   });
 
-    homeRefs.current.forEach((ref) => {
-      if (ref) {
-        homeObserver.observe(ref);
-      }
-    });
+  //   homeRefs.current.forEach((ref) => {
+  //     if (ref) {
+  //       homeObserver.observe(ref);
+  //     }
+  //   });
 
-    return () => {
-      homeObserver.disconnect();
-    };
-  }, []);
+  //   return () => {
+  //     homeObserver.disconnect();
+  //   };
+  // }, []);
 
   return (
     <div className="home-container">
-      <header
-        ref={navigateHomeRef}
+      {/* <header
+        // ref={navigateHomeRef}
         //  ref={(el) => (homeRefs.current[0] = el)}
         className="home-header"
       >
-        <div ref={(el) => (homeRefs.current[0] = el)} className="logo">
-          <img src="\images\Web-Final\SGA-Logo.png" alt="" />
+        <div
+          //  ref={(el) => (homeRefs.current[0] = el)}
+          className="logo"
+        >
+          <img src="/images/Web-Final/SGA-Logo.png" alt="" />
         </div>
         <div className="main-sign-container">
           <h1 className="main-sign-h1">
@@ -61,12 +65,16 @@ function Home() {
             <span className="main-sign-span">- ACADEMY -</span>
           </h1>
         </div>
-        <img className="home-main-image" src="/images/My project.png" alt="" />
-      </header>
+        <img
+          className="home-main-image"
+          src="/images/Web-Final/main.png"
+          alt=""
+        />
+      </header> */}
       <section className="boxes">
         <div className="box-picture-on-left">
           <img
-            src="/images\Web-Final\_MG_0167.jpg"
+            src="/images/Web-Final/_MG_0167.jpg"
             alt=""
             className="image-left"
           />
@@ -158,4 +166,3 @@ function Home() {
 }
 
 export default Home;
-gi;

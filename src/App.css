@@ -19,7 +19,7 @@
 .app-container {
   /* background-color: var(--main-background-color); */
 
-  /* border: 1px solid rgb(255, 255, 255); */
+  border: 1px solid rgb(255, 255, 255);
   min-height: 100vh;
   z-index: 0;
   /* padding: 0 10%; */
