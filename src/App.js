@@ -10,24 +10,24 @@ import Sponsors from "./Sponsors/Sponsors";
 import Questions from "./Questions/Questions";
 import Header from "./Homepage/Header";
 
-// import Footer from "./Footer/Footer";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
     <div className="app">
       <main className="app-container">
-        <Navbar />
+        {/* <Navbar /> */}
         <Header />
-        <Home />
-        {/* <Courses />
-        <Adcc />
-        <AboutSGA />
-        <Gallery />
-        <Sponsors />
-        <Questions /> */}
+        {/* <Home /> */}
+        {/* <Courses /> */}
+        {/* <Adcc /> */}
+        {/* <AboutSGA /> */}
+        {/* <Gallery /> */}
+        {/* <Sponsors /> */}
+        {/* <Questions /> */}
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -66,7 +66,7 @@ function Header() {
         </div>
         <img
           className="home-main-image"
-          src="/images/Web-Final/main.png"
+          src="/images/Web-Final/main2.png"
           alt=""
         />
       </div>

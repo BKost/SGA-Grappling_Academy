@@ -1,28 +1,40 @@
 .footer-container {
-  /* border: 1px solid white; */
+  border: 1px solid white;
   background-color: var(--main-background-color);
   width: 100%;
   min-height: 400px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-top: 2em;
+  padding: 0 3%;
+  padding-bottom: 5em;
 }
 
-.donate > h2 {
-  font-size: 3rem;
+h2 {
+  font-size: 4.5rem;
 }
 
-.donate > p {
+p {
   font-size: 1.6rem;
 }
 
-.made-by {
-  text-align: center;
-  align-self: flex-end;
-  margin-bottom: 2em;
+h3 {
+  font-size: 2.4rem;
 }
 
-.contact-info {
-  font-size: 1.6rem;
-  margin-top: 2em;
+/* h4 {
+  font-size: 2rem;
+} */
+.oz-info {
+}
+
+.oz-info > p {
+  font-weight: 600;
+}
+
+.footer-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.contact-info-wrapper {
+  border: 1px solid white;
 }

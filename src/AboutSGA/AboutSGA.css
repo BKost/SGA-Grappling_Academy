@@ -70,6 +70,7 @@
   transition: all 0.3s;
 }
 
+/* .competition-team > h3 { */
 .competition-team {
   font-size: 2.4rem;
   grid-column: 2/3;
