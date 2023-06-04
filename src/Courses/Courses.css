@@ -141,3 +141,9 @@
     margin-top: 1em;
   }
 }
+
+@media only screen and (max-width: 494px) {
+  .courses-text {
+    font-size: 1.4rem;
+  }
+}

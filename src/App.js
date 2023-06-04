@@ -16,15 +16,15 @@ function App() {
   return (
     <div className="app">
       <main className="app-container">
-        {/* <Navbar /> */}
+        <Navbar />
         <Header />
-        {/* <Home /> */}
-        {/* <Courses /> */}
-        {/* <Adcc /> */}
-        {/* <AboutSGA /> */}
-        {/* <Gallery /> */}
-        {/* <Sponsors /> */}
-        {/* <Questions /> */}
+        <Home />
+        <Courses />
+        <Adcc />
+        <AboutSGA />
+        <Gallery />
+        <Sponsors />
+        <Questions />
       </main>
 
       <Footer />

@@ -1,11 +1,14 @@
 import React from "react";
 import "./Footer.css";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 function Footer() {
   return (
     <footer className="footer-container">
-      <h2>DARUJTE NÁM 2% Z DANÍ</h2>
-      <p>
+      <h2 className="footer-main-h2">DARUJTE NÁM 2% Z DANÍ</h2>
+      <p className="two-percent-paragraph">
         Pomôžete na ceste mladím a nádejním športovcom a nebude vás to stáť ani
         cent. Poukázať 2% z vašich daní neznamená pre vás platbu či príspevok
         navyše. Ak si túto možnosť neuplatníte, podiel z vašich daní pripadne do
@@ -26,7 +29,7 @@ function Footer() {
       />
 
       <div className="contact-info-wrapper">
-        <div className="contact-info">
+        <div className="contact-info-container">
           <h3>Kontaktné info:</h3>
 
           <p>Slovak Grappling Academy</p>
@@ -35,9 +38,18 @@ function Footer() {
           <p>Telefónny kontakt: +421 915 452 310 / +421 915 452 290</p>
         </div>
 
-        <div>
-          <p>"Fight hard, fair, and always for the win"</p>
+        <div className="adcc-moto-container">
+          <img src="/images/ADCC_logo.png" alt="" />
+          <p>
+            "Fight hard, fair, and
+            <br /> always for the win"
+          </p>
         </div>
+      </div>
+      <div className="footer-icons-container">
+        <InstagramIcon className="footer-icon" fontSize="large" />
+        <WhatsAppIcon className="footer-icon" fontSize="large" />
+        <FacebookIcon className="footer-icon" fontSize="large" />
       </div>
     </footer>
   );

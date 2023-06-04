@@ -47,30 +47,6 @@ function Home() {
 
   return (
     <div className="home-container">
-      {/* <header
-        // ref={navigateHomeRef}
-        //  ref={(el) => (homeRefs.current[0] = el)}
-        className="home-header"
-      >
-        <div
-          //  ref={(el) => (homeRefs.current[0] = el)}
-          className="logo"
-        >
-          <img src="/images/Web-Final/SGA-Logo.png" alt="" />
-        </div>
-        <div className="main-sign-container">
-          <h1 className="main-sign-h1">
-            <span className="main-sign-span"> SLOVAK</span> <br />
-            <span className="main-sign-span-second ">GRAPPLING</span> <br />
-            <span className="main-sign-span">- ACADEMY -</span>
-          </h1>
-        </div>
-        <img
-          className="home-main-image"
-          src="/images/Web-Final/main.png"
-          alt=""
-        />
-      </header> */}
       <section className="boxes">
         <div className="box-picture-on-left">
           <img

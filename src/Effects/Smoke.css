@@ -3,13 +3,13 @@
   height: 100%;
   /* background-color: rgba(9, 21, 17, 0.293); */
   /* background-image: linear-gradient(to top, #212529, rgba(0, 0, 0, 0) 100%); */
-  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0) 100%);
+  /* background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0) 100%); */
 
   /* background-color: #000000a5; */
   /* overflow-y: hidden; */
   position: absolute;
   /* z-index: 0; */
-  z-index: 3;
+  z-index: 5;
   transition: all 0.3s;
   transform: translateY(20%);
 
@@ -33,9 +33,9 @@ img {
   background-color: #000;
 } */
 .ag-smoke-block {
-  display: none;
+  /* display: none; */
 
-  z-index: 4;
+  z-index: 5;
   position: relative;
   /* background: linear-gradient(
     to bottom,

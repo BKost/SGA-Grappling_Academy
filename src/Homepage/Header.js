@@ -70,6 +70,7 @@ function Header() {
           alt=""
         />
       </div>
+      <div className="overlay"></div>
       <Smoke />
     </header>
   );
