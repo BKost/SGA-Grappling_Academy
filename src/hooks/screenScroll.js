@@ -5,6 +5,12 @@ function useScreenScroll() {
   const [prevScrollPos, setPrevScrollPos] = useState(document.body.scrollTop);
   const [currentScrollPos, setCurrentScrollPos] = useState(window.scrollY);
 
+  console.log(currentScrollPos);
+
+  useEffect(() => {
+    currentScrollPos === 0 && setCurrentScrollPos(window.scrollY);
+  }, []);
+
   useEffect(() => {
     setPrevScrollPos(currentScrollPos);
 

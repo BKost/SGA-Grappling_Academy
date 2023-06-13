@@ -6,47 +6,62 @@ function Sponsors() {
     <div className="sponsors-container">
       <h2>SPONZORI</h2>
       <div className="sponsors">
-        <img
-          src="/images/Sponsors-images/TryEnough.png"
-          alt=""
-          className="sponsors-img"
-        />
-        <img
-          src="/images/Sponsors-images/Timberwood_logo 1.png"
-          alt=""
-          className="sponsors-img"
-        />
-
-        <img
-          src="/images/Sponsors-images/pitbull-black 1.png"
-          alt=""
-          className="sponsors-img"
-        />
-        <img
-          src="/images/Sponsors-images/parketfam_logo 1.png"
-          alt=""
-          className="sponsors-img"
-        />
-        <img
-          src="/images/Sponsors-images/Logotyp-Barny's-R2 1.png"
-          alt=""
-          className="sponsors-img"
-        />
-        <img
-          src="/images/Sponsors-images/Fitline.png"
-          alt=""
-          className="sponsors-img"
-        />
-        <img
-          src="/images/Sponsors-images/fightportal 1.png"
-          alt=""
-          className="sponsors-img"
-        />
-        <img
-          src="/images/Sponsors-images/ememej-talenty-logo-final-(1) 1.png"
-          alt=""
-          className="sponsors-img"
-        />
+        <a target="_blank" href="https://ememejtalenty.sk/">
+          <img
+            src="/images/Sponsors-images/ememej-talenty-logo-final-(1).png"
+            alt=""
+            className="sponsors-img"
+          />
+        </a>
+        <a target="_blank" href="https://fightportal.eu/">
+          <img
+            src="/images/Sponsors-images/fightportal.png"
+            alt=""
+            className="sponsors-img"
+          />
+        </a>
+        <a target="_blank" href="https://www.barnys.sk/">
+          <img
+            src="/images/Sponsors-images/Logotyp-Barny_s-R2.png"
+            alt=""
+            className="sponsors-img"
+          />
+        </a>
+        <a target="_blank" href="https://www.parketfam.sk/">
+          <img
+            src="/images/Sponsors-images/parketfam_logo.png"
+            alt=""
+            className="sponsors-img"
+          />
+        </a>
+        <a target="_blank" href="https://pitbullstore.eu/">
+          <img
+            src="/images/Sponsors-images/pitbull-black.png"
+            alt=""
+            className="sponsors-img"
+          />
+        </a>
+        <a target="_blank" href="https://www.timberwoodsk.com/">
+          <img
+            src="/images/Sponsors-images/Timberwood_logo.png"
+            alt=""
+            className="sponsors-img"
+          />
+        </a>
+        <a target="_blank" href="https://www.tryenough.work/">
+          <img
+            src="/images/Sponsors-images/try enough logo biele(1).png"
+            alt=""
+            className="sponsors-img"
+          />
+        </a>
+        <a target="_blank" href="https://fitlineobchod.sk/">
+          <img
+            src="/images/Sponsors-images/wwwfitline-(1).png"
+            alt=""
+            className="sponsors-img"
+          />
+        </a>
       </div>
       <div className="space-for-sponsors">
         <h2>PRIESTOR PRE NOVÝCH SPONZOROV</h2>

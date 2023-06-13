@@ -18,7 +18,14 @@ function Courses() {
           ak máš záujem skúsiť bojové športy, tieto kurzy sú práve pre teba.
         </p>
         {/* </div> */}
-        <div className="sign-button">PRIHLÁSIŤ SA</div>
+        <a
+          className="courses-sign-btn-a"
+          href="https://www.instagram.com/slovak_grappling_academy/"
+          target="_blank"
+        >
+          {" "}
+          <p className="sign-button">PRIHLÁSIŤ SA</p>
+        </a>
       </div>
       <img className="courses-img" src={GrapplingImage} alt="" />
     </section>

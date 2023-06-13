@@ -11,38 +11,36 @@ function Gallery() {
       <div className="gallery-image-container">
         <div className="gallery-column gallery-column-first">
           <div className="gallery-image-wrapper">
-            <img src="/images/Web-Final/_MG_0119.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_0119.jpg" alt="Grappling image" />
           </div>
           <div className="gallery-image-wrapper">
-            {" "}
             <img
               src="/images/Web-Final/288871589_560557992175338_7579320411222049849_n.jpg"
-              alt=""
+              alt="Grappling image"
             />
           </div>
           <div className="gallery-image-wrapper">
-            <img src="/images/sga.jpeg" alt="" />
+            <img src="/images/sga.jpeg" alt="Grappling image" />
           </div>
           <div className="gallery-image-wrapper">
-            {" "}
             <img
               src="/images/Web-Final/288761355_560559318841872_5044857905237968695_n.jpg"
-              alt=""
+              alt="Grappling image"
             />
           </div>
         </div>
         <div className="gallery-column gallery-column-second">
           <div className="gallery-image-wrapper">
-            <img src="/images/Web-Final/_MG_0298.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_0298.jpg" alt="Grappling image" />
           </div>
           <div className="gallery-image-wrapper">
-            <img src="/images/Web-Final/_MG_9841.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_9841.jpg" alt="Grappling image" />
           </div>
           <div className="gallery-image-wrapper">
-            <img src="/images/Web-Final/_MG_0052.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_0052.jpg" alt="Grappling image" />
           </div>
           <div className="gallery-image-wrapper">
-            <img src="/images/Web-Final/_MG_0154.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_0154.jpg" alt="Grappling image" />
           </div>
         </div>
       </div>

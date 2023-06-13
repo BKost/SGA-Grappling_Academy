@@ -31,9 +31,7 @@ h3 {
   max-width: 900px;
   transition: all 0.3s;
 }
-/* h4 {
-  font-size: 2rem;
-} */
+
 .oz-info {
   margin-bottom: 4em;
   transition: all 0.3s;
@@ -50,7 +48,6 @@ h3 {
 }
 
 .contact-info-wrapper {
-  /* border: 1px solid white; */
   display: flex;
   justify-content: space-between;
 
@@ -60,13 +57,10 @@ h3 {
 }
 
 .contact-info-container {
-  /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
   justify-content: end;
   transition: all 0.3s;
-
-  /* flex: 0 0 33%; */
 }
 
 .contact-info-container > h3 {
@@ -76,16 +70,13 @@ h3 {
 
 .adcc-moto-container {
   font-family: "Dancing Script", cursive;
-  /* border: 1px solid white; */
+
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  /* width: 400px; */
   width: fit-content;
   transition: all 0.3s;
-
-  /* flex: 0 0 33%; */
 }
 
 .adcc-moto-container > p {
@@ -96,19 +87,15 @@ h3 {
 
 .adcc-moto-container > img {
   width: 190px;
-  /* margin-bottom: 0.1em; */
 }
 
 .footer-icons-container {
-  /* min-height: 100px; */
   display: flex;
   justify-content: center;
   gap: 2em;
-  /* border: 1px solid white; */
 }
 
 .footer-icon {
-  /* transition: all 0.3s; */
   cursor: pointer;
 }
 .footer-icon:hover {
@@ -121,7 +108,7 @@ h3 {
     gap: 4em;
   }
   .adcc-moto-container {
-    align-self: flex-end;
+    align-self: center;
   }
 }
 

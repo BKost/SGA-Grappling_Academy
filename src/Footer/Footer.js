@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Footer.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import { AppContext } from "../AppContext";
 
 function Footer() {
+  const { navigateContactRef } = useContext(AppContext);
+
   return (
-    <footer className="footer-container">
+    <footer ref={navigateContactRef} className="footer-container">
       <h2 className="footer-main-h2">DARUJTE NÁM 2% Z DANÍ</h2>
       <p className="two-percent-paragraph">
         Pomôžete na ceste mladím a nádejním športovcom a nebude vás to stáť ani
@@ -22,9 +25,10 @@ function Footer() {
         <p>Adresa - M.R. Štefánika 1397/54B, 960 01 Zvolen</p>
         <p>IČO - 53486269</p>
       </div>
+
       <img
         className="footer-img"
-        src="/images/290360163_560885645475906_8692948988504378136_n.jpg"
+        src="/images/Web-Final/Footer_pic.png"
         alt=""
       />
 
@@ -40,6 +44,7 @@ function Footer() {
 
         <div className="adcc-moto-container">
           <img src="/images/ADCC_logo.png" alt="" />
+
           <p>
             "Fight hard, fair, and
             <br /> always for the win"
@@ -47,9 +52,25 @@ function Footer() {
         </div>
       </div>
       <div className="footer-icons-container">
-        <InstagramIcon className="footer-icon" fontSize="large" />
-        <WhatsAppIcon className="footer-icon" fontSize="large" />
-        <FacebookIcon className="footer-icon" fontSize="large" />
+        <a
+          target="_blank"
+          href="https://www.instagram.com/slovak_grappling_academy/"
+        >
+          <InstagramIcon className="footer-icon" fontSize="large" />
+        </a>
+        <a
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=421915452310"
+        >
+          <WhatsAppIcon className="footer-icon" fontSize="large" />
+        </a>
+
+        <a
+          target="_blank"
+          href="https://www.facebook.com/slovakgrapplingacademy"
+        >
+          <FacebookIcon className="footer-icon" fontSize="large" />
+        </a>
       </div>
     </footer>
   );

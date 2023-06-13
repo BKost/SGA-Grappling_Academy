@@ -5,32 +5,11 @@ function Schedule() {
   const dayRefs = useRef([]);
 
   const [dayNumber, setDayNumber] = useState();
-  // console.log(dayNumber);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setDayNumber((prevNum) => {
-  //       if (prevNum < 5) {
-  //         return prevNum + 1;
-  //       } else {
-  //         setDayNumber(1);
-  //         return prevNum;
-  //       }
-  //     });
-  //   }, 1000);
-
-  //   return () => {
-  //     clearInterval(interval);
-  //   };
-  // }, [dayNumber]);
-
-  // console.log(root);
 
   useEffect(() => {
     const date = new Date();
 
     setDayNumber(date.getDay());
-    // setDayNumber(4);
 
     const dayOptions = {
       rootMargin: "0px 0px -20% 0px",
@@ -67,53 +46,6 @@ function Schedule() {
       dayObserver.disconnect();
     };
   }, [dayNumber]);
-
-  // useEffect(
-  //   () => {
-  //     const options = {
-  //       root: null,
-  //       rootMargin: "0px 0px -30% 0px",
-  //       // threshold: 0.5,
-  //     };
-
-  //     const containerObserver = new IntersectionObserver((entries) => {
-  //       entries.forEach((entry) => {
-  //         if (entry.isIntersecting) {
-  //           // console.log(entry.target.scrollHeight);
-
-  //           setContainerVisible(true);
-  //           // console.log(containerVisible);
-  //         }
-
-  //         if (!entry.isIntersecting) {
-  //           setContainerVisible(false);
-
-  //           // console.log(containerVisible);
-  //         }
-  //       });
-  //     }, options);
-
-  //     if (smallScreenRootRef.current) {
-  //       containerObserver.observe(smallScreenRootRef.current);
-  //     }
-
-  //     return () => {
-  //       containerObserver.disconnect();
-  //     };
-  //   },
-  //   [
-  //     // containerVisible,
-  //     // screenWidth
-  //   ]
-  // );
-
-  // console.log(root);
-
-  // console.log(dayNumber);
-
-  // const dayNumber = 2;
-
-  // console.log(dayNumber);
 
   return (
     <div className="training-schedule-container">

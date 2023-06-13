@@ -14,10 +14,11 @@ import Footer from "./Footer/Footer";
 
 function App() {
   return (
-    <div className="app">
-      <main className="app-container">
+    <main className="app">
+      <Header />
+      <div className="app-container">
         <Navbar />
-        <Header />
+
         <Home />
         <Courses />
         <Adcc />
@@ -25,10 +26,10 @@ function App() {
         <Gallery />
         <Sponsors />
         <Questions />
-      </main>
+      </div>
 
       <Footer />
-    </div>
+    </main>
   );
 }
 

@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./Carousel.css";
 
-import peopleData from "./peopleData";
+// import peopleData from "./peopleData";
 
 import InstagramIcon from "@mui/icons-material/Instagram";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
@@ -11,37 +11,10 @@ import TrainerPhoto from "../../images/_MG_9565.jpg";
 
 function Carousel() {
   const carouselRef = useRef(null);
-  // console.log(carouselRef.current);
 
   const itemsRefs = useRef([]);
 
   const { screenWidth } = useScreenWidth();
-
-  useEffect(() => {
-    const carouselOptions = {
-      root: carouselRef.current,
-      rootMargin: "0px -23% 0px -23%",
-      threshold: 1.0,
-    };
-
-    const carouselObserever = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // entry.target.children[0].classList.add("slider-item-intersect");
-        }
-
-        if (!entry.isIntersecting) {
-          // entry.target.children[0].classList.remove("slider-item-intersect");
-        }
-      });
-    }, carouselOptions);
-
-    itemsRefs.current.forEach((ref) => {
-      if (ref) {
-        carouselObserever.observe(ref);
-      }
-    });
-  }, []);
 
   useEffect(() => {
     carouselRef.current.scrollLeft = 0;
@@ -50,11 +23,11 @@ function Carousel() {
   function swipe(direction) {
     let devider = 3;
 
-    if (screenWidth < 1200) {
+    if (screenWidth < 1230) {
       devider = 2;
     }
 
-    if (screenWidth < 800) {
+    if (screenWidth < 685) {
       devider = 1;
     }
 
@@ -75,12 +48,10 @@ function Carousel() {
     const itemsWithoutButtons = children.length - buttonsInCHildrenArr;
 
     const carouselScrollLeft = scrollLeft;
-    // const itemWidth = itemsRefs.current[0].offsetWidth;
     const itemWidth = scrollWidth / itemsWithoutButtons;
 
     const ratio = carouselScrollLeft / itemWidth;
 
-    const ratio1Decimal = Number(ratio.toFixed(5));
     const ratioNoDecimal = Number(ratio.toFixed(0));
 
     return ratioNoDecimal * itemWidth;
@@ -91,7 +62,6 @@ function Carousel() {
 
   const btnLeftRef = useRef(null);
   const btnRightRef = useRef(null);
-  // console.log(btnLeftHovered);
 
   useEffect(() => {
     function updateBtnLeft() {
@@ -153,12 +123,18 @@ function Carousel() {
             <img src="/images/Web-Final/_MG_9521.jpg" alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
+                <h2>MICHAL MARUŠKIN</h2>
+                <h3>ZÁPASNÍK</h3>
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/michal_maruskin/"
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -172,12 +148,18 @@ function Carousel() {
             <img src="/images/Web-Final/_MG_9868.jpg" alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
+                <h2>ADAM HANK</h2>
+                <h3>ZÁPASNÍK</h3>
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/adamhank/"
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -190,12 +172,19 @@ function Carousel() {
             <img src="/images/Web-Final/_MG_9551.jpg" alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
+                <h2>TOMÁŠ ONDRIS</h2>
                 <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/tomas_ondris/
+                  "
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -208,12 +197,19 @@ function Carousel() {
             <img src={TrainerPhoto} alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
+                <h2>NINO ONDRIS</h2>
                 <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/ninoondris/
+                  "
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -226,12 +222,18 @@ function Carousel() {
             <img src="/images/Web-Final/_MG_9530.jpg" alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
+                <h2>MICHAL BUŠOVSKÝ</h2>
+                <h3>ZÁPASNÍK</h3>
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/michal_busovsky/"
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -244,13 +246,19 @@ function Carousel() {
             <img src="/images/Web-Final/_MG_9891.jpg" alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
-              </div>{" "}
+                <h2>MICHAL ŽUBOR</h2>
+                <h3>ZÁPASNÍK</h3>
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/gnrlzubro/"
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -263,18 +271,24 @@ function Carousel() {
             <img src="/images/Web-Final/_MG_9504.jpg" alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
+                <h2>PETER KOVÁČ</h2>
+                <h3>ZÁPASNÍK</h3>
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/kpt.peter_kovac/"
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div
+        {/* <div
           ref={(el) => (itemsRefs.current[7] = el)}
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
         >
@@ -282,7 +296,7 @@ function Carousel() {
             <img src="/images/Web-Final/_MG_9898.jpg" alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
+                <h2>GG</h2>
                 <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
                 <InstagramIcon
                   fontSize="large"
@@ -291,9 +305,9 @@ function Carousel() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div
+        {/* <div
           ref={(el) => (itemsRefs.current[8] = el)}
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
         >
@@ -310,8 +324,8 @@ function Carousel() {
               </div>
             </div>
           </div>
-        </div>
-        <div
+        </div> */}
+        {/* <div
           ref={(el) => (itemsRefs.current[9] = el)}
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
         >
@@ -328,7 +342,7 @@ function Carousel() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

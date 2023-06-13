@@ -9,7 +9,7 @@
   /* overflow-y: hidden; */
   position: absolute;
   /* z-index: 0; */
-  z-index: 5;
+  z-index: 4;
   transition: all 0.3s;
   transform: translateY(20%);
 

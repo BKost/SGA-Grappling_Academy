@@ -18,34 +18,28 @@ h3 {
   font-size: 2.4rem;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .app {
   background-color: var(--main-background-color);
 
   color: var(--main-text-color);
   min-height: 100vh;
   font-family: "Teko", sans-serif;
-  /* padding: 0 3%; */
   position: relative;
   z-index: 0;
 }
 
 .app-container {
-  /* background-color: var(--main-background-color); */
-
-  /* border: 1px solid rgb(255, 255, 255); */
   min-height: 100vh;
   z-index: 0;
-  /* padding: 0 10%; */
+  padding: 0 3%;
   position: relative;
   display: grid;
   width: 100%;
   grid-template-columns: 8% 1fr 8%;
-  /* background-color: aquamarine; */
   overflow-x: hidden;
 }
-
-/* @media only screen and (max-width: 494px) {
-  p {
-    font-size: 1.4rem;
-  }
-} */

@@ -11,8 +11,7 @@ import useHover from "../hooks/isHovered";
 function Navbar() {
   const {
     logoOnScreen,
-    // navbarHidden,
-    // setNavbarHidden,
+    navigateContactRef,
     navigateHomeRef,
     navigateADCCRef,
     navigateSGARef,
@@ -69,19 +68,12 @@ function Navbar() {
     };
   }, [currentScrollPos, isHovered]);
 
-  //
-  //
-  //
-
   useEffect(() => {
     if (scrollDirection === "down" && currentScrollPos > 700) {
       setNavbarHidden(true);
     }
 
-    if (
-      // scrollDirection === "up" &&
-      currentScrollPos > 700
-    ) {
+    if (currentScrollPos > 700) {
       setNavbarHidden(false);
     }
   }, [currentScrollPos, scrollDirection]);
@@ -94,22 +86,16 @@ function Navbar() {
     const elementRectTop = location?.current.getBoundingClientRect().top;
     const bodyRectTop = document.body.getBoundingClientRect().top;
 
-    // const chooseOffset = scrollDirection === "down" ? 0 : offset;
-
     window.scrollTo({
       behavior: "smooth",
       top: elementRectTop - bodyRectTop - offset,
     });
-
-    // console.log(elementRectTop - bodyRectTop - offset);
-    // console.log(bodyRectTop);
-    // console.log(elementRectTop);
   }
 
   return (
     <div
       ref={hoverRef}
-      className={`nav-container  ${!logoOnScreen && "add-shadow"} ${
+      className={`nav-container  ${currentScrollPos > 40 && "add-shadow"} ${
         navbarHidden && "nav-container-hidden"
       } `}
     >
@@ -117,7 +103,7 @@ function Navbar() {
         <nav className="navigation">
           <img
             className={`navbar-logo-closed ${
-              !logoOnScreen && " navbar-logo-opened"
+              currentScrollPos > 40 && " navbar-logo-opened"
             }`}
             src="/images\Web-Final\SGA-Logo.png"
             alt=""
@@ -144,7 +130,7 @@ function Navbar() {
               GALÉRIA
             </li>
             <li
-              // onClick={() => navigate(navigateContactRef)}
+              onClick={() => navigate(navigateContactRef)}
               className="nav-item"
             >
               KONTAKT
@@ -196,7 +182,6 @@ function Navbar() {
             <li
               onClick={() => {
                 navigate(navigateHomeRef);
-                // setMenuOpened(false);
               }}
               className="mobile-nav-item"
             >
@@ -205,7 +190,6 @@ function Navbar() {
             <li
               onClick={() => {
                 navigate(navigateADCCRef);
-                // setMenuOpened(false);
               }}
               className="mobile-nav-item"
             >
@@ -214,7 +198,6 @@ function Navbar() {
             <li
               onClick={() => {
                 navigate(navigateSGARef);
-                // setMenuOpened(false);
               }}
               className="mobile-nav-item"
             >
@@ -223,7 +206,6 @@ function Navbar() {
             <li
               onClick={() => {
                 navigate(navigateGalleryRef);
-                // setMenuOpened(false);
               }}
               className="mobile-nav-item"
             >
@@ -231,8 +213,7 @@ function Navbar() {
             </li>
             <li
               onClick={() => {
-                // navigate(navigateContactRef);
-                // setMenuOpened(false);
+                navigate(navigateContactRef);
               }}
               className="mobile-nav-item"
             >
