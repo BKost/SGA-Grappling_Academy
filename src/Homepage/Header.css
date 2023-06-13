@@ -4,8 +4,8 @@
 
   display: flex;
   align-items: flex-end;
-  height: 100vh;
-
+  /* height: 100vh; */
+  height: 744px;
   overflow: hidden;
 
   position: relative;
@@ -42,7 +42,6 @@
 
 .header-content-wrapper {
   position: relative;
-  border: 1px solid white;
   width: 100%;
   height: 100%;
   display: flex;
@@ -149,11 +148,6 @@
 
   .main-sign-span-second {
     font-size: 6rem;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .home-header {
-    /* max-height: 900px; */
   }
 }
 

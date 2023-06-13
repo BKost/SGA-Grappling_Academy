@@ -18,7 +18,6 @@ function App() {
       <Header />
       <div className="app-container">
         <Navbar />
-
         <Home />
         <Courses />
         <Adcc />

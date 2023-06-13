@@ -13,7 +13,11 @@ function Adcc() {
     <div ref={navigateADCCRef} className="adcc-container">
       <div className="about-adcc">
         <div className="adcc-headings-wrapper">
-          <div className="logo-adcc">ADCC</div>
+          <img
+            className="logo-adcc"
+            src="/images/ADCC_logo.png"
+            alt="ADCC logo"
+          />
           <h2 className="adcc-heading">ADCC SLOVAKIA</h2>
         </div>
         <p className="adcc-text">
@@ -36,14 +40,14 @@ function Adcc() {
           <div className="adcc-image-wrapper">
             <img
               src={GridPhoto3}
-              alt="Photo 1"
+              alt="Photo 2"
               className="grid-img grid-img-3 "
             />
           </div>
           <div className="adcc-image-wrapper">
             <img
               src={GridPhoto1}
-              alt="Photo 1"
+              alt="Photo 3"
               className="grid-img grid-img-1 "
             />
           </div>
@@ -53,21 +57,21 @@ function Adcc() {
           <div className="adcc-image-wrapper">
             <img
               src="/images/289268031_560886225475848_7356325068166042758_n.jpg"
-              alt=""
+              alt="Photo 4"
               className="grid-img"
             />
           </div>
           <div className="adcc-image-wrapper">
             <img
               src={GridPhoto4}
-              alt="Photo 1"
+              alt="Photo 5"
               className="grid-img grid-img-4 "
             />
           </div>
           <div className="adcc-image-wrapper">
             <img
               src="/images/288844552_560559398841864_1914012904678492250_n.jpg"
-              alt=""
+              alt="Photo 6"
               className="grid-img"
             />
           </div>

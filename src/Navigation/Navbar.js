@@ -56,7 +56,6 @@ function Navbar() {
         }
 
         if (time === 1 && currentScrollPos <= 700) {
-          // setNavTime(0);
           clearInterval(navbarTimer);
           return time;
         }
@@ -95,7 +94,7 @@ function Navbar() {
   return (
     <div
       ref={hoverRef}
-      className={`nav-container  ${currentScrollPos > 40 && "add-shadow"} ${
+      className={`nav-container  ${currentScrollPos > 10 && "add-shadow"} ${
         navbarHidden && "nav-container-hidden"
       } `}
     >
@@ -103,7 +102,7 @@ function Navbar() {
         <nav className="navigation">
           <img
             className={`navbar-logo-closed ${
-              currentScrollPos > 40 && " navbar-logo-opened"
+              currentScrollPos > 10 && " navbar-logo-opened"
             }`}
             src="/images\Web-Final\SGA-Logo.png"
             alt=""

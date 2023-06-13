@@ -1,5 +1,4 @@
 .footer-container {
-  border: 1px solid white;
   background-color: var(--main-background-color);
   width: 100%;
   min-height: 400px;
@@ -43,7 +42,7 @@ h3 {
 
 .footer-img {
   width: 100%;
-  max-height: 200px;
+  max-height: 400px;
   object-fit: cover;
 }
 
@@ -61,6 +60,7 @@ h3 {
   flex-direction: column;
   justify-content: end;
   transition: all 0.3s;
+  letter-spacing: 0.1rem;
 }
 
 .contact-info-container > h3 {

@@ -1,8 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./Carousel.css";
-
-// import peopleData from "./peopleData";
-
 import InstagramIcon from "@mui/icons-material/Instagram";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -145,7 +142,7 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9868.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_9868.jpg" alt="Adam Hank" />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>ADAM HANK</h2>
@@ -169,7 +166,7 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9551.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_9551.jpg" alt="Tomáš Ondriš" />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>TOMÁŠ ONDRIS</h2>
@@ -194,7 +191,7 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src={TrainerPhoto} alt="" />
+            <img src={TrainerPhoto} alt="Nino Ondriš" />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>NINO ONDRIS</h2>
@@ -219,7 +216,7 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9530.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_9530.jpg" alt="Michal Bušovský" />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>MICHAL BUŠOVSKÝ</h2>
@@ -243,7 +240,7 @@ function Carousel() {
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9891.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_9891.jpg" alt="Michal Žubor" />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>MICHAL ŽUBOR</h2>
@@ -268,7 +265,7 @@ function Carousel() {
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9504.jpg" alt="" />
+            <img src="/images/Web-Final/_MG_9504.jpg" alt="Peter Kováč" />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>PETER KOVÁČ</h2>
@@ -287,62 +284,6 @@ function Carousel() {
             </div>
           </div>
         </div>
-
-        {/* <div
-          ref={(el) => (itemsRefs.current[7] = el)}
-          className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
-        >
-          <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9898.jpg" alt="" />
-            <div className="about-slider-item">
-              <div className="slider-item-text">
-                <h2>GG</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-        {/* <div
-          ref={(el) => (itemsRefs.current[8] = el)}
-          className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
-        >
-          <div className="slider-item">
-            <img src={TrainerPhoto} alt="" />
-            <div className="about-slider-item">
-              <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* <div
-          ref={(el) => (itemsRefs.current[9] = el)}
-          className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
-        >
-          <div className="slider-item">
-            <img src={TrainerPhoto} alt="" />
-            <div className="about-slider-item">
-              <div className="slider-item-text">
-                <h2>NINO ONDRIŠ</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <InstagramIcon
-                  fontSize="large"
-                  className="slider-item-insta-icon"
-                />
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   );

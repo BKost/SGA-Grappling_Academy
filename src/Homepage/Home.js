@@ -8,7 +8,7 @@ function Home() {
         <div className="box-picture-on-left">
           <img
             src="/images/Web-Final/_MG_0167.jpg"
-            alt=""
+            alt="Grappling Image"
             className="image-left"
           />
           <div className="about-right">
@@ -46,7 +46,7 @@ function Home() {
         <div className="box-picture-on-left">
           <img
             src="/images/Web-Final/_MG_0288.jpg"
-            alt=""
+            alt="Grappling Image"
             className="image-left"
           />
           <div className="about-right">
@@ -64,7 +64,7 @@ function Home() {
         <div className="box-picture-on-right">
           <img
             src="/images/Web-Final/_MG_9396.jpg"
-            alt=""
+            alt="Grappling Image"
             className="image-right"
           />
 

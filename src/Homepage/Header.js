@@ -44,11 +44,7 @@ function Header() {
   }, []);
 
   return (
-    <header
-      ref={navigateHomeRef}
-      //  ref={(el) => (homeRefs.current[0] = el)}
-      className="home-header"
-    >
+    <header ref={navigateHomeRef} className="home-header">
       <div ref={(el) => (homeRefs.current[0] = el)} className="logo">
         <img src="/images/Web-Final/SGA-Logo.png" alt="" />
       </div>
@@ -67,7 +63,7 @@ function Header() {
         <img
           className="home-main-image"
           src="/images/Web-Final/main2.png"
-          alt=""
+          alt="Main image"
         />
       </div>
       <div className="overlay"></div>

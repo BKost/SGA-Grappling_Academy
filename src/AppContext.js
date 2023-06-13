@@ -4,10 +4,8 @@ const AppContext = createContext();
 
 function AppContextProvider({ children }) {
   const [logoOnScreen, setLogoOnScreen] = useState(true);
-  // const [navbarHidden, setNavbarHidden] = useState(false);
 
-  // navigation
-
+  // Navigation
   const navigateHomeRef = useRef();
   const navigateADCCRef = useRef();
   const navigateSGARef = useRef();
@@ -24,8 +22,6 @@ function AppContextProvider({ children }) {
         navigateContactRef,
         logoOnScreen,
         setLogoOnScreen,
-        // navbarHidden,
-        // setNavbarHidden,
       }}
     >
       {children}

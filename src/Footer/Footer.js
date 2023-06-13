@@ -28,8 +28,8 @@ function Footer() {
 
       <img
         className="footer-img"
-        src="/images/Web-Final/Footer_pic.png"
-        alt=""
+        src="/images/Background.png"
+        alt="Footer image"
       />
 
       <div className="contact-info-wrapper">
@@ -43,7 +43,7 @@ function Footer() {
         </div>
 
         <div className="adcc-moto-container">
-          <img src="/images/ADCC_logo.png" alt="" />
+          <img src="/images/ADCC_logo.png" alt="Slovak ADCC logo" />
 
           <p>
             "Fight hard, fair, and
