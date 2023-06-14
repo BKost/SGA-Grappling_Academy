@@ -1,54 +1,13 @@
-import React, { useRef, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import { AppContext } from "../AppContext";
 import "./Header.css";
 import Smoke from "../Effects/Smoke";
 
 function Header() {
-  const homeRefs = useRef([]);
-  // const homeContainerRef = useRef();
-
-  // const homeRef = useRef(null);
-
-  const { setLogoOnScreen, setNavbarHidden, navigateHomeRef } =
-    useContext(AppContext);
-
-  useEffect(() => {
-    const homeObserver = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting && entry.target.className === "home-header") {
-          setNavbarHidden(false);
-        } else if (
-          !entry.isIntersecting &&
-          entry.target.className === "home-header"
-        ) {
-          setNavbarHidden(true);
-        }
-
-        if (entry.isIntersecting && entry.target.className === "logo") {
-          setLogoOnScreen(true);
-        } else {
-          setLogoOnScreen(false);
-        }
-      });
-    });
-
-    homeRefs.current.forEach((ref) => {
-      if (ref) {
-        homeObserver.observe(ref);
-      }
-    });
-
-    return () => {
-      homeObserver.disconnect();
-    };
-  }, []);
+  const { navigateHomeRef } = useContext(AppContext);
 
   return (
     <header ref={navigateHomeRef} className="home-header">
-      <div ref={(el) => (homeRefs.current[0] = el)} className="logo">
-        <img src="/images/Web-Final/SGA-Logo.png" alt="" />
-      </div>
-
       <div className="header-content-wrapper">
         <div className="main-sign-container">
           <h1 className="main-sign-h1">
