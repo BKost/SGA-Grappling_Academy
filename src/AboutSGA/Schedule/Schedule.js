@@ -73,11 +73,11 @@ function Schedule() {
 
           <div className="grappling-class class-div">
             <p>GRAPPLING</p>
-            <p>18:00 - 10:30</p>
+            <p>18:00 - 19:00</p>
           </div>
           <div className="mma-class class-div">
             <p>MMA</p>
-            <p>8:00 - 10:30</p>
+            <p>19:00 - 20:00</p>
           </div>
         </div>
         <div
@@ -97,16 +97,16 @@ function Schedule() {
 
           <div className="comp-class class-div">
             <p>COMPETITION CLASS</p>
-            <p>8:00 - 10:30</p>
+            <p>17:00 - 18:00</p>
           </div>
 
           <div className="wrestling-class class-div">
             <p>WRESTLING</p>
-            <p>8:00 - 10:30</p>
+            <p>18:00 - 19:00</p>
           </div>
           <div className="grappling-class class-div">
             <p>Grappling</p>
-            <p>8:00 - 10:30</p>
+            <p>19:00 - 20:00</p>
           </div>
         </div>
         <div
@@ -114,9 +114,7 @@ function Schedule() {
           id="3"
           className="schedule-column column-3"
         >
-          {" "}
           <div className="day">
-            {" "}
             <div className="today-tag today-tag-closed">Dnes</div>
             <p>STREDA</p>
           </div>
@@ -126,15 +124,15 @@ function Schedule() {
           </div>
           <div className="comp-class class-div">
             <p>COMPETITION CLASS</p>
-            <p>8:00 - 10:30</p>
+            <p>17:00 - 18:00</p>
           </div>
           <div className="grappling-class class-div">
             <p>GRAPPLING</p>
-            <p>8:00 - 10:30</p>
+            <p>18:00 - 19:00</p>
           </div>
           <div className="mma-class class-div">
             <p>MMA</p>
-            <p>8:00 - 10:30</p>
+            <p>19:00 - 20:00</p>
           </div>
         </div>
         <div
@@ -142,9 +140,7 @@ function Schedule() {
           id="4"
           className="schedule-column column-4"
         >
-          {" "}
           <div className="day">
-            {" "}
             <div className="today-tag today-tag-closed">Dnes</div>
             <p>ŠTVRTOK</p>
           </div>
@@ -154,15 +150,15 @@ function Schedule() {
           </div>
           <div className="comp-class class-div">
             <p>COMPETITION CLASS</p>
-            <p>8:00 - 10:30</p>
+            <p>17:00 - 18:00</p>
           </div>
           <div className="wrestling-class  class-div">
             <p>WRESTLING</p>
-            <p>8:00 - 10:30</p>
+            <p>18:00 - 19:00</p>
           </div>
           <div className="grappling-class class-div">
             <p>Grappling</p>
-            <p>8:00 - 10:30</p>
+            <p>19:00 - 20:00</p>
           </div>
         </div>
         <div
@@ -170,9 +166,7 @@ function Schedule() {
           id="5"
           className="schedule-column column-5"
         >
-          {" "}
           <div className="day">
-            {" "}
             <div className="today-tag today-tag-closed">Dnes</div>
             <p>PIATOK</p>
           </div>
@@ -182,15 +176,15 @@ function Schedule() {
           </div>
           <div className="comp-class class-div">
             <p>COMPETITION CLASS</p>
-            <p>8:00 - 10:30</p>
+            <p>17:00 - 18:00</p>
           </div>
           <div className="sparring-class class-div">
             <p>SPARINGY</p>
-            <p>8:00 - 10:30</p>
+            <p>18:00 - 19:00</p>
           </div>
           <div className="sparring-class class-div">
             <p>SPARINGY</p>
-            <p>8:00 - 10:30</p>
+            <p>19:00 - 20:00</p>
           </div>
         </div>
       </div>

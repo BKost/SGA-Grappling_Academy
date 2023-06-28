@@ -4,7 +4,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import useScreenWidth from "../../hooks/screenWidth";
-import TrainerPhoto from "../../images/_MG_9565.jpg";
 
 function Carousel() {
   const carouselRef = useRef(null);
@@ -191,7 +190,7 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src={TrainerPhoto} alt="Nino Ondriš" />
+            <img src={"/images/_MG_9565.jpg"} alt="Nino Ondriš" />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>NINO ONDRIS</h2>
@@ -269,7 +268,7 @@ function Carousel() {
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>PETER KOVÁČ</h2>
-                <h3>ZÁPASNÍK</h3>
+                <h3>ZÁPASNÍK A TRÉNER</h3>
                 <a
                   target="_blank
                 "

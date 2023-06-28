@@ -3,7 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  height: 85px;
+  /* height: 85px; */
+  height: 75px;
+
   position: fixed;
 
   z-index: 6;
@@ -28,7 +30,7 @@
 }
 
 .navbar-logo-closed {
-  width: 60px;
+  width: 50px;
   transform: translateX(-150%);
 
   transition: all 0.2s;

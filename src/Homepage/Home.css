@@ -3,6 +3,12 @@
   margin-bottom: 10em;
 }
 
+@media only screen and (max-width: 655px) {
+  .home-container {
+    grid-column: 1/5;
+  }
+}
+
 .boxes {
   display: flex;
   flex-direction: column;
@@ -156,10 +162,9 @@
 
     transform: translateY(55px);
   }
- }
+}
 
 @media only screen and (min-width: 1160px) {
- 
   .box-picture-on-left {
     flex-direction: row;
   }

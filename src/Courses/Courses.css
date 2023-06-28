@@ -5,10 +5,10 @@
   grid-template-columns: 8% 1fr 8%;
   background-color: var(--secondary-background-color);
   margin-bottom: 7em;
-  padding: 0 auto;
-  padding-bottom: 5em;
+
   position: relative;
   box-shadow: 0px 10px 14px 0px #212529;
+  padding-bottom: 2em;
 }
 
 .courses-wrapper {
@@ -57,6 +57,7 @@
   text-align: center;
   padding: 0.2em 0.7em;
   cursor: pointer;
+  /* margin-bottom: 2em; */
 }
 
 .sign-button:hover {

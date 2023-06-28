@@ -4,8 +4,7 @@
 
   display: flex;
   align-items: flex-end;
-  /* height: 100vh; */
-  height: 744px;
+  height: 100vh;
   overflow: hidden;
 
   position: relative;
@@ -13,12 +12,6 @@
   box-shadow: 0px 2px 14px 0px #212529;
 
   z-index: 0;
-}
-
-@media only screen and (min-width: 748px) {
-  .home-header {
-    min-height: 700px;
-  }
 }
 
 .overlay {
@@ -46,13 +39,14 @@
   height: 100%;
   display: flex;
   align-items: end;
+  max-width: 1700px;
+  margin: 0 auto;
   padding: 0 3%;
 }
 
 .main-sign-container {
   width: fit-content;
   position: relative;
-
   margin-bottom: 4em;
 
   z-index: 5;
@@ -108,10 +102,21 @@
   animation: slide-from-right 1000ms;
 }
 
-.home-main-image {
+/* .home-main-image {
   position: absolute;
   z-index: 4;
   width: 700px;
+  right: 3%;
+  border: 1px solid white;
+  margin-left: auto;
+  animation: main-image 2000ms;
+} */
+
+.home-main-image {
+  position: absolute;
+  z-index: 4;
+
+  width: 95vh;
   right: 3%;
 
   margin-left: auto;
@@ -141,77 +146,83 @@
 
 /* MAIN HEADING MEDIA QUERIES */
 
-@media only screen and (max-width: 1150px) {
-  .main-sign-h1 {
-    font-size: 8rem;
-  }
-
-  .main-sign-span-second {
-    font-size: 6rem;
-  }
-}
-
-@media only screen and (max-width: 748px) {
+@media only screen and (max-width: 858px) {
   .home-header {
-    height: 700px;
+    height: 820px;
   }
 
   .home-main-image {
     width: 94%;
   }
 
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      #000000 30%,
+      rgba(0, 0, 0, 0) 80%
+    );
+    position: absolute;
+  }
+
   .main-sign-container {
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.69);
   }
 
   .main-sign-h1 {
-    font-size: 6rem;
+    font-size: 6.8rem;
     margin-left: 0;
   }
   .main-sign-span-second {
-    font-size: 4.5rem;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .home-header {
-    height: 650px;
+    font-size: 5.3rem;
   }
 }
 
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 676px) {
+  .home-main-image {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 602px) {
   .main-sign-h1 {
     font-size: 5rem;
+  }
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      #000000 50%,
+      rgba(0, 0, 0, 0) 80%
+    );
+    position: absolute;
   }
 
   .main-sign-span-second {
     font-size: 4rem;
   }
-}
-
-@media only screen and (max-width: 560px) {
-  .home-header {
-    height: 550px;
-  }
-}
-@media only screen and (max-width: 523px) {
-  .home-header {
-    height: 690px;
-  }
 
   .main-sign-container {
-    margin-bottom: 23em;
-    text-shadow: 0px 2px 14px #212529;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 18%;
   }
 }
-@media only screen and (max-width: 418px) {
-  .home-header {
-    height: 600px;
-  }
 
+@media only screen and (max-width: 493px) {
   .main-sign-container {
-    margin-bottom: 20em;
+    margin-bottom: 35%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main-sign-container {
+    margin-bottom: 60%;
   }
 
   .main-sign-h1 {
@@ -220,5 +231,11 @@
 
   .main-sign-span-second {
     font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .main-sign-container {
+    margin-bottom: 70%;
   }
 }

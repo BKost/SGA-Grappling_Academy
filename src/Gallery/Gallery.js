@@ -24,7 +24,7 @@ function Gallery() {
           </div>
           <div className="gallery-image-wrapper">
             <img
-              src="/images/Web-Final/288761355_560559318841872_5044857905237968695_n.jpg"
+              src="/images/288707717_560559355508535_4496249360274897512_n.jpg"
               alt="Grappling image"
             />
           </div>
@@ -40,7 +40,10 @@ function Gallery() {
             <img src="/images/Web-Final/_MG_0052.jpg" alt="Grappling image" />
           </div>
           <div className="gallery-image-wrapper">
-            <img src="/images/Web-Final/_MG_0154.jpg" alt="Grappling image" />
+            <img
+              src="/images/289328445_560885608809243_2704188894120921463_n.jpg"
+              alt="Grappling image"
+            />
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Courses.css";
-// import GrapplingImage from "/images/289268031_560886225475848_7356325068166042758_n.jpg";
 
 function Courses() {
   return (

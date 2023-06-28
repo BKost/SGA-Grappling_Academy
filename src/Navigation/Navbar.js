@@ -104,7 +104,7 @@ function Navbar() {
             className={`navbar-logo-closed ${
               currentScrollPos > 10 && " navbar-logo-opened"
             }`}
-            src="/images\Web-Final\SGA-Logo.png"
+            src="/images/Web-Final/SGA-Logo.png"
             alt=""
           />
           <ul className="navigation-ul">

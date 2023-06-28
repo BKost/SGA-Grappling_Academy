@@ -5,6 +5,27 @@
   box-sizing: border-box;
 }
 
+/* @font-face {
+  font-family: "Teko";
+  src: url("./fonts/Teko-Regular.ttf");
+} */
+/* @font-face {
+  font-family: "Teko";
+  src: url("./fonts/Teko-Bold.ttf");
+}
+@font-face {
+  font-family: "Teko";
+  src: url("./fonts/Teko-Light.ttf");
+}
+@font-face {
+  font-family: "Teko";
+  src: url("./fonts/Teko-Regular.ttf");
+}
+@font-face {
+  font-family: "Teko";
+  src: url("./fonts/Teko-SemiBold.ttf");
+} */
+
 h2 {
   font-size: 4.5rem;
 }
@@ -41,5 +62,8 @@ a {
   display: grid;
   width: 100%;
   grid-template-columns: 8% 1fr 8%;
+  /* grid-template-columns: 1fr 70% 1fr; */
+  max-width: 1700px;
+  margin: 0 auto;
   overflow-x: hidden;
 }

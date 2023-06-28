@@ -36,9 +36,9 @@ function Home() {
             <div className="about-wrapper">
               <h2 className="box-title wrestling-h2">WRESTLING</h2>
               <p className="about-text">
-                Hlavným cieľom jehodiť súpera aukontrolovaťhona zemi. Kontrola
-                súperana jeholopatkáchvedie k víťazstvu. Wrestling patrí
-                medziolympijske športy.
+                Hlavným cieľom je hodiť súpera a ukontrolovať ho na zemi.
+                Kontrola súpera na jeho lopatkách vedie k víťazstvu. Wrestling
+                patrí medzi olympijské športy.
               </p>
             </div>
           </div>
@@ -53,9 +53,9 @@ function Home() {
             <div className="about-wrapper">
               <h2 className="box-title">MMA</h2>
               <p className="about-text about-text-right">
-                MMAjekontaktnýbojovýšport, umožňujúciúdery, kopy
-                strhysúperanazem abojnazemi. Spájarôznetechnikyz ovšetkýchboj
-                ovýchšportov.
+                MMA je kontaktný bojový šport umožňujúci údery, kopy, strhy
+                súpera na zem a boj na zemi. Spája rôzne techniky zo všetkých
+                bojových športov.
               </p>
             </div>
           </div>

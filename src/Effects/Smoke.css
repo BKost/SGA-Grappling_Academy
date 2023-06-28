@@ -12,7 +12,9 @@
   z-index: 4;
   transition: all 0.3s;
   transform: translateY(20%);
-
+  /* max-width: 70%;
+  margin: 0 auto; */
+  /* background-color: rgb(206, 122, 13); */
   /* background: linear-gradient(
     to bottom,
     rgb(255, 255, 255),
@@ -59,6 +61,8 @@ img {
 
   z-index: -2;
   top: 15em;
+  border: 1px solid white;
+  /* bottom: 400%; */
 }
 .ag-smoke-2,
 .ag-smoke-3 {
