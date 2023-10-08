@@ -76,10 +76,11 @@ function Home() {
                   <span className="span-fitness">
                     Jediné Nonstop Fitness v Banskej Bystrici a okolí!
                   </span>
-                  Obmedzený počet permanentiek zaručuje kľud a súkromie takže
-                  naši klienti si môžu užiť fitko len pre seba kde nikto nebude
-                  vzdychať a kričať a nemusia čakať kým sa im uvoľní pár
-                  kotúčov, aby si mohli zacvičiť.
+                  Máme bezkonkurenčne najnižšie ceny v Banskej Bystrici a sme
+                  otvorení 24/7. Zaručujeme súkromie a pohodlie pri cvičení,
+                  kvôli obmedzenému počtu permanentiek. Vďaka vlastným kľúčom si
+                  budete môcť prísť zacvičiť aj o polnoci. Vybavenie fitka je
+                  úplne nové a moderné.
                 </p>
                 <a
                   className=""

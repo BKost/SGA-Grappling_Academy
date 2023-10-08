@@ -10,7 +10,7 @@ function Pricing() {
       <h3>Cenník</h3>
       <div className="pricing-text">
         <p>
-          <span className="pricing-span">Jednorázový vstup:</span> 7€ / tréning
+          <span className="pricing-span">Jednorázový vstup:</span> 7€ / deň
         </p>
         <p>
           <span className="pricing-span">Mesačný Grappling + MMA:</span> 60€ /

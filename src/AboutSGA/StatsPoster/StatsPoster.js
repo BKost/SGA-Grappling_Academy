@@ -17,7 +17,7 @@ function StatsPoster() {
         <h2 className="stat-number">
           <AnimatedNumber countDelay={50} number={29} />
         </h2>
-        <p>TITULOV RÔZNYCH EURÓPSKYCH KRAJÍN V GRAPPLINGU</p>
+        <p>TITULOV V RÔZNYCH EURÓPSKYCH ORGANIZÁCIACH</p>
       </div>
       <div ref={(el) => (statRefs.current[2] = el)} className="stat-container">
         <h2 className="stat-number">
@@ -27,9 +27,9 @@ function StatsPoster() {
       </div>
       <div ref={(el) => (statRefs.current[3] = el)} className="stat-container">
         <h2 className="stat-number">
-          <AnimatedNumber countDelay={120} number={12} />
+          <AnimatedNumber countDelay={290} number={5} />
         </h2>
-        <p>MMA VÍŤAZSTIEV</p>
+        <p>ROKOV OD ZALOŽENIA KLUBU</p>
       </div>
     </div>
   );

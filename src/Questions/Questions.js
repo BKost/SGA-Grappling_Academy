@@ -50,7 +50,7 @@ function Questions() {
             className="answer"
           >
             <p>
-              Určite nie. :) Sme výborný kolektív a dbáme nato, aby sa u nás
+              Určite nie. :) Sme výborný kolektív a dbáme na to, aby sa u nás
               každý cítil dobre a aby napredoval čo najrýchlejšie. Ako
               začiatočník si môžeš zatrénovať aj s profesionálnym zápasníkom,
               ktorý ti rád poradí, ukáže a odovzdá cenné skúsenosti, vďaka
@@ -84,10 +84,9 @@ function Questions() {
           >
             <p>
               Nachádzame sa na konci Kráľovohoľskej ulici v Sásovej, Banskej
-              Bystrici. Presnú mapku nájdeš na tejto stránke v sekcií..... Z
-              parkoviska to už je len pár krokov do krátkeho kopca a po drevenom
-              chodníku k hlavným dverám kde uvidíš našu reklamu. V budove nás
-              nájdeš na 1. poschodí.
+              Bystrici. Z parkoviska to už je len pár krokov do krátkeho kopca a
+              po drevenom chodníku k hlavným dverám kde uvidíš našu reklamu. V
+              budove nás nájdeš na 1. poschodí.
             </p>
           </div>
         </div>

@@ -21,7 +21,7 @@ function Adcc() {
           a sme hrdí nato, že práve my máme tú česť organizovať pre Vás nadupané
           turnaje, za ktorými nemusíte cestovať stovky kilometrov! Sleduj
           instagram ADCC Slovakia, kde sa dozvieš všetko o nás, o turnajoch,
-          rozhodcovských seminárov, atď...
+          rozhodcovských seminároch, atď...
         </p>
       </div>
       <div className="adcc-photos-container">

@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { AppContext } from "../AppContext";
 import "./AboutSGA.css";
-import Carousel from "./Carousel/Carousel.js";
+// import Carousel from "./Carousel/Carousel.js";
 import StatsPoster from "./StatsPoster/StatsPoster.js";
-import Schedule from "./Schedule/Schedule";
+// import Schedule from "./Schedule/Schedule";
 
 function AboutSGA() {
   const { navigateSGARef } = useContext(AppContext);
