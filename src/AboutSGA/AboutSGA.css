@@ -34,48 +34,48 @@
   gap: 1em;
 }
 
-.about-sga-lower {
+/* .about-sga-lower {
   background-color: var(--main-background-color);
   min-height: 560px;
   display: grid;
   grid-template-columns: 8% 1fr 8%;
   row-gap: 2em;
   padding-top: 2em;
-}
+} */
 
-.competition-class {
+/* .competition-class {
   grid-column: 2/3;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-top: 1em;
-}
+} */
 
-.competition-class > h2 {
+/* .competition-class > h2 {
   font-size: 4.5rem;
   transition: all 0.3s;
-}
+} */
 
-.competition-class > p {
+/* .competition-class > p {
   text-align: end;
   font-size: 1.6rem;
   width: 75%;
   transition: all 0.3s;
-}
+} */
 
-.competition-team {
+/* .competition-team {
   font-size: 2.4rem;
   grid-column: 2/3;
   padding-bottom: 1.5em;
-}
+} */
 
-.competition-team > p {
+/* .competition-team > p {
   font-size: 1.6rem;
   width: 75%;
   transition: all 0.3s;
-}
+} */
 
-@media only screen and (max-width: 706px) {
+/* @media only screen and (max-width: 706px) {
   .competition-class > p {
     text-align: start;
     align-self: flex-start;
@@ -88,16 +88,16 @@
   .competition-class {
     justify-content: flex-start;
   }
-}
+} */
 
 @media only screen and (max-width: 558px) {
   .about-sga-text-container > h2 {
     font-size: 3.5rem;
   }
-  .competition-class > h2 {
+  /* .competition-class > h2 {
     font-size: 3.5rem;
     margin-right: auto;
-  }
+  } */
 
   .about-sga-text {
     max-width: 100%;
@@ -109,19 +109,19 @@
     font-size: 1.4rem;
   }
 
-  .competition-text {
+  /* .competition-text {
     font-size: 1.4rem;
-  }
+  } */
 }
 
 @media only screen and (max-width: 437px) {
   .about-sga-text-container > h2 {
     font-size: 3.5rem;
   }
-  .competition-class > h2 {
+  /* .competition-class > h2 {
     font-size: 2.7rem;
   }
   .competition-team > h3 {
     font-size: 2.3rem;
-  }
+  } */
 }

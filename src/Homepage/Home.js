@@ -15,10 +15,10 @@ function Home() {
             <div className="about-wrapper">
               <h2 className="box-title">GRAPPLING</h2>
               <p className="about-text about-text-right">
-                Grappling, alebo aj No-Gi BJJ (Brazílske JiuJitsubez kimona) je
-                bojový šport ktorého cieľom je donútiť súpera vzdať sa.
+                Grappling, alebo aj No-Gi BJJ (Brazílske Jiu Jitsu bez kimona)
+                je bojový šport ktorého cieľom je donútiť súpera vzdať sa.
                 Využívajú sa k tomu techniky označené anglickým výrazom
-                submission, čo sú rôzne druhy škrtení a páčení. Ide primárne
+                submission, čo sú rôzne druhy škrtení a páčení. Ide primárne o
                 techniku boja na zemi.
               </p>
             </div>
@@ -70,7 +70,7 @@ function Home() {
 
           <div className="about-left">
             <div className="about-wrapper">
-              <h2 className="box-title">FITNESS</h2>
+              <h2 className="box-title">NONSTOP FITNESS</h2>
               <div className="text-wrapper">
                 <p className="about-text">
                   <span className="span-fitness">
@@ -81,6 +81,13 @@ function Home() {
                   vzdychať a kričať a nemusia čakať kým sa im uvoľní pár
                   kotúčov, aby si mohli zacvičiť.
                 </p>
+                <a
+                  className=""
+                  // href="https://www.instagram.com/slovak_grappling_academy/"
+                  target="_blank"
+                >
+                  <p className="fitness-sign-button ">ZISTIŤ VIAC</p>
+                </a>
               </div>
             </div>
           </div>

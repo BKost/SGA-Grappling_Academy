@@ -1,6 +1,7 @@
 .training-schedule-container {
-  grid-column: 2 / 3;
+  grid-column: 1 / 4;
   min-height: 400px;
+  margin-bottom: 4em;
 }
 
 .training-schedule-container > h2 {

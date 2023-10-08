@@ -110,7 +110,80 @@ function Carousel() {
             } `}
           />
         </div>
-
+        <div
+          ref={(el) => (itemsRefs.current[3] = el)}
+          className="slider-item-spacing-wrapper"
+        >
+          <div className="slider-item">
+            <img src={"/images/_MG_9565.jpg"} alt="Nino Ondriš" />
+            <div className="about-slider-item">
+              <div className="slider-item-text">
+                <h2>NINO ONDRIS</h2>
+                <h3>HLAVNÝ TRÉNER A ZÁPASNÍK</h3>
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/ninoondris/
+                  "
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          ref={(el) => (itemsRefs.current[2] = el)}
+          className="slider-item-spacing-wrapper"
+        >
+          <div className="slider-item">
+            <img src="/images/Web-Final/_MG_9551.jpg" alt="Tomáš Ondriš" />
+            <div className="about-slider-item">
+              <div className="slider-item-text">
+                <h2>TOMÁŠ ONDRIS</h2>
+                <h3>HLAVNÝ TRÉNER A ZÁPASNÍK</h3>
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/tomas_ondris/
+                  "
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          ref={(el) => (itemsRefs.current[6] = el)}
+          className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
+        >
+          <div className="slider-item">
+            <img src="/images/Web-Final/_MG_9504.jpg" alt="Peter Kováč" />
+            <div className="about-slider-item">
+              <div className="slider-item-text">
+                <h2>PETER KOVÁČ</h2>
+                <h3>TRÉNER A ZÁPASNÍK</h3>
+                <a
+                  target="_blank
+                "
+                  href="https://www.instagram.com/kpt.peter_kovac/"
+                >
+                  <InstagramIcon
+                    fontSize="large"
+                    className="slider-item-insta-icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div
           ref={(el) => (itemsRefs.current[0] = el)}
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-first"
@@ -160,56 +233,7 @@ function Carousel() {
             </div>
           </div>
         </div>
-        <div
-          ref={(el) => (itemsRefs.current[2] = el)}
-          className="slider-item-spacing-wrapper"
-        >
-          <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9551.jpg" alt="Tomáš Ondriš" />
-            <div className="about-slider-item">
-              <div className="slider-item-text">
-                <h2>TOMÁŠ ONDRIS</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <a
-                  target="_blank
-                "
-                  href="https://www.instagram.com/tomas_ondris/
-                  "
-                >
-                  <InstagramIcon
-                    fontSize="large"
-                    className="slider-item-insta-icon"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          ref={(el) => (itemsRefs.current[3] = el)}
-          className="slider-item-spacing-wrapper"
-        >
-          <div className="slider-item">
-            <img src={"/images/_MG_9565.jpg"} alt="Nino Ondriš" />
-            <div className="about-slider-item">
-              <div className="slider-item-text">
-                <h2>NINO ONDRIS</h2>
-                <h3>ZÁPASNÍK A HLAVNÝ TRÉNER</h3>
-                <a
-                  target="_blank
-                "
-                  href="https://www.instagram.com/ninoondris/
-                  "
-                >
-                  <InstagramIcon
-                    fontSize="large"
-                    className="slider-item-insta-icon"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div
           ref={(el) => (itemsRefs.current[4] = el)}
           className="slider-item-spacing-wrapper"
@@ -248,31 +272,6 @@ function Carousel() {
                   target="_blank
                 "
                   href="https://www.instagram.com/gnrlzubro/"
-                >
-                  <InstagramIcon
-                    fontSize="large"
-                    className="slider-item-insta-icon"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          ref={(el) => (itemsRefs.current[6] = el)}
-          className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
-        >
-          <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9504.jpg" alt="Peter Kováč" />
-            <div className="about-slider-item">
-              <div className="slider-item-text">
-                <h2>PETER KOVÁČ</h2>
-                <h3>ZÁPASNÍK A TRÉNER</h3>
-                <a
-                  target="_blank
-                "
-                  href="https://www.instagram.com/kpt.peter_kovac/"
                 >
                   <InstagramIcon
                     fontSize="large"

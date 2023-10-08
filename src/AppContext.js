@@ -11,6 +11,9 @@ function AppContextProvider({ children }) {
   const navigateSGARef = useRef();
   const navigateGalleryRef = useRef();
   const navigateContactRef = useRef();
+  const navigateTrainingScheduleRef = useRef();
+  const navigateFitnessRef = useRef();
+  const navigatePricingRef = useRef();
 
   return (
     <AppContext.Provider
@@ -20,6 +23,9 @@ function AppContextProvider({ children }) {
         navigateSGARef,
         navigateGalleryRef,
         navigateContactRef,
+        navigateFitnessRef,
+        navigateTrainingScheduleRef,
+        navigatePricingRef,
         logoOnScreen,
         setLogoOnScreen,
       }}

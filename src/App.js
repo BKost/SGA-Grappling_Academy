@@ -9,8 +9,11 @@ import Gallery from "./Gallery/Gallery";
 import Sponsors from "./Sponsors/Sponsors";
 import Questions from "./Questions/Questions";
 import Header from "./Homepage/Header";
-
+import CompClass from "./AboutSGA/CompClass";
+import Carousel from "./AboutSGA/Carousel/Carousel";
 import Footer from "./Footer/Footer";
+import Schedule from "./AboutSGA/Schedule/Schedule";
+import Pricing from "./Pricing/Pricing";
 
 function App() {
   return (
@@ -18,11 +21,16 @@ function App() {
       <Header />
       <div className="app-container">
         <Navbar />
-        <Home />
-        <Courses />
-        <Adcc />
         <AboutSGA />
+        <Home />
+        <CompClass />
+        <Carousel />
+        <Courses />
+        <Schedule />
+        <Pricing />
+        <Adcc />
         <Gallery />
+
         <Sponsors />
         <Questions />
       </div>

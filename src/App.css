@@ -44,6 +44,14 @@ a {
   text-decoration: none;
 }
 
+div {
+  -ms-overflow-style: none;
+}
+
+div::-webkit-scrollbar {
+  width: 0 !important;
+}
+
 .app {
   background-color: var(--main-background-color);
 

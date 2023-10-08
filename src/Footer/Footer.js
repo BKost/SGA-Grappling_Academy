@@ -46,8 +46,8 @@ function Footer() {
           <img src="/images/ADCC_logo.png" alt="Slovak ADCC logo" />
 
           <p>
-            "Fight hard, fair, and
-            <br /> always for the win"
+            "Fight hard, fight fair, and
+            <br /> always for win"
           </p>
         </div>
       </div>

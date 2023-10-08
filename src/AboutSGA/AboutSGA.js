@@ -33,7 +33,7 @@ function AboutSGA() {
         </div>
       </div>
       <StatsPoster />
-      <div className="about-sga-lower">
+      {/* <div className="about-sga-lower">
         <div className="competition-class">
           <h2>COMPETITION TEAM</h2>
           <p className="competition-text">
@@ -52,11 +52,11 @@ function AboutSGA() {
             Competition class sú zadarmo.
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <Carousel />
+      {/* <Carousel />
 
-      <Schedule />
+      <Schedule /> */}
     </div>
   );
 }

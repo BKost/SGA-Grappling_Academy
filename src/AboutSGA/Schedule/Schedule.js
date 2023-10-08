@@ -1,7 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useContext } from "react";
+import { AppContext } from "../../AppContext";
 import "./Schedule.css";
 
 function Schedule() {
+  const { navigateTrainingScheduleRef } = useContext(AppContext);
+
   const dayRefs = useRef([]);
 
   const [dayNumber, setDayNumber] = useState();
@@ -48,7 +51,10 @@ function Schedule() {
   }, [dayNumber]);
 
   return (
-    <div className="training-schedule-container">
+    <div
+      ref={navigateTrainingScheduleRef}
+      className="training-schedule-container"
+    >
       <h2 className="training-schedule-h2">ROZPIS TRÉNINGOV</h2>
       <div className="training-schedule-grid">
         <div
@@ -105,7 +111,7 @@ function Schedule() {
             <p>18:00 - 19:00</p>
           </div>
           <div className="grappling-class class-div">
-            <p>Grappling</p>
+            <p>GRAPPLING</p>
             <p>19:00 - 20:00</p>
           </div>
         </div>
@@ -157,7 +163,7 @@ function Schedule() {
             <p>18:00 - 19:00</p>
           </div>
           <div className="grappling-class class-div">
-            <p>Grappling</p>
+            <p>GRAPPLING</p>
             <p>19:00 - 20:00</p>
           </div>
         </div>

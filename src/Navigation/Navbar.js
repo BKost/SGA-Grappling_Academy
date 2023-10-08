@@ -16,6 +16,9 @@ function Navbar() {
     navigateADCCRef,
     navigateSGARef,
     navigateGalleryRef,
+    navigateFitnessRef,
+    navigateTrainingScheduleRef,
+    navigatePricingRef,
   } = useContext(AppContext);
 
   const { screenWidth } = useScreenWidth();
@@ -28,11 +31,11 @@ function Navbar() {
   const [navbarHidden, setNavbarHidden] = useState(false);
 
   useEffect(() => {
-    screenWidth <= 655 && setNavTime(0);
+    screenWidth <= 995 && setNavTime(0);
 
     const navbarTimer = setInterval(() => {
       setNavTime((time) => {
-        if (screenWidth <= 655) {
+        if (screenWidth <= 995) {
           clearInterval(navbarTimer);
           setNavTime(0);
           return time;
@@ -98,7 +101,7 @@ function Navbar() {
         navbarHidden && "nav-container-hidden"
       } `}
     >
-      {screenWidth > 655 && (
+      {screenWidth > 995 && (
         <nav className="navigation">
           <img
             className={`navbar-logo-closed ${
@@ -108,8 +111,26 @@ function Navbar() {
             alt=""
           />
           <ul className="navigation-ul">
-            <li onClick={() => navigate(navigateHomeRef)} className="nav-item">
-              DOMOV
+            <li onClick={() => navigate(navigateSGARef)} className="nav-item">
+              O KLUBE
+            </li>
+            <li
+              onClick={() => navigate(navigateTrainingScheduleRef)}
+              className="nav-item"
+            >
+              ROZPIS TRÉNINGOV
+            </li>
+            <li
+              onClick={() => navigate(navigatePricingRef)}
+              className="nav-item"
+            >
+              CENNÍK
+            </li>
+            <li
+              // onClick={() => navigate(navigateHomeRef)}
+              className="nav-item"
+            >
+              NONSTOP FITNESS
             </li>
             <li
               onClick={() => {
@@ -118,9 +139,6 @@ function Navbar() {
               className="nav-item"
             >
               ADCC
-            </li>
-            <li onClick={() => navigate(navigateSGARef)} className="nav-item">
-              SGA
             </li>
             <li
               onClick={() => navigate(navigateGalleryRef)}
@@ -138,7 +156,7 @@ function Navbar() {
         </nav>
       )}
 
-      {screenWidth <= 655 && (
+      {screenWidth <= 995 && (
         <nav className="navigation">
           <img
             className={`navbar-logo-closed ${
@@ -164,7 +182,7 @@ function Navbar() {
         </nav>
       )}
 
-      {screenWidth <= 655 && (
+      {screenWidth <= 995 && (
         <nav
           className={`mobile-navigation   ${
             !menuOpened && "mobile-navigation-closed"
@@ -180,11 +198,35 @@ function Navbar() {
           <ul className="mobile-navigation-ul">
             <li
               onClick={() => {
-                navigate(navigateHomeRef);
+                navigate(navigateSGARef);
               }}
               className="mobile-nav-item"
             >
-              DOMOV
+              O KLUBE
+            </li>
+            <li
+              onClick={() => {
+                navigate(navigateTrainingScheduleRef);
+              }}
+              className="mobile-nav-item"
+            >
+              ROZPIS TRÉNINGOV
+            </li>
+            <li
+              onClick={() => {
+                navigate(navigatePricingRef);
+              }}
+              className="mobile-nav-item"
+            >
+              CENNÍK
+            </li>
+            <li
+              // onClick={() => {
+              //   navigate(navigateFitnessRef);
+              // }}
+              className="mobile-nav-item"
+            >
+              NONSTOP FITNESS
             </li>
             <li
               onClick={() => {
@@ -193,14 +235,6 @@ function Navbar() {
               className="mobile-nav-item"
             >
               ADCC
-            </li>
-            <li
-              onClick={() => {
-                navigate(navigateSGARef);
-              }}
-              className="mobile-nav-item"
-            >
-              SGA
             </li>
             <li
               onClick={() => {
