@@ -1,0 +1,81 @@
+.sponsors-container {
+  grid-column: 1 / 4;
+  min-height: 800px;
+
+  background-color: var(--main-background-color);
+  display: grid;
+  grid-template-columns: 8% 1fr 8%;
+
+  margin-bottom: 7em;
+}
+
+.sponsors {
+  height: auto;
+  grid-column: 2 / 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 6em;
+}
+
+.sponsors-img {
+  width: 270px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.sponsors-img:hover {
+  box-shadow: 0px 2px 14px 0px #212529;
+}
+
+.sponsors-container > h2 {
+  margin-bottom: 1em;
+  grid-column: 2 / 3;
+
+  font-size: 4.5rem;
+  transition: all 0.3s;
+}
+
+.space-for-sponsors {
+  grid-column: 2 / 3;
+}
+
+.space-for-sponsors > h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 1.5em;
+}
+
+.space-for-sponsors > p {
+  font-size: 1.6rem;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .space-for-sponsors > p {
+    width: 100%;
+    text-align: start;
+  }
+
+  .space-for-sponsors > h2 {
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .sponsors-container {
+    row-gap: 0;
+  }
+
+  .sponsors-container > h2 {
+    font-size: 3.5rem;
+  }
+
+  .space-for-sponsors > p {
+    font-size: 1.4rem;
+  }
+}
