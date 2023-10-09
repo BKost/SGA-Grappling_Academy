@@ -14,14 +14,10 @@ import Carousel from "./AboutSGA/Carousel/Carousel";
 import Footer from "./Footer/Footer";
 import Schedule from "./AboutSGA/Schedule/Schedule";
 import Pricing from "./Pricing/Pricing";
-import Fitness from "./Fitness/fitness";
-import { Routes, Route } from "react-router-dom";
-import AppContent from "./AppContent";
 
 function App() {
   return (
     <main className="app">
-      {/* {window.location.pathname !== "/fitness" && } */}
       <Header />
       <div className="app-container">
         <Navbar />
