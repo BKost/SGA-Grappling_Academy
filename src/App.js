@@ -14,14 +14,14 @@ import Carousel from "./AboutSGA/Carousel/Carousel";
 import Footer from "./Footer/Footer";
 import Schedule from "./AboutSGA/Schedule/Schedule";
 import Pricing from "./Pricing/Pricing";
-
+import Fitness from "./Fitness/fitness";
 function App() {
   return (
     <main className="app">
       <Header />
       <div className="app-container">
         <Navbar />
-        <AboutSGA />
+        {/* <AboutSGA />
         <Home />
         <CompClass />
         <Carousel />
@@ -32,7 +32,9 @@ function App() {
         <Gallery />
 
         <Sponsors />
-        <Questions />
+        <Questions /> */}
+
+        <Fitness />
       </div>
 
       <Footer />
