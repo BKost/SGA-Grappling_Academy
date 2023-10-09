@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
               <h2 className="box-title">GRAPPLING</h2>
               <p className="about-text about-text-right">
                 Grappling, alebo aj No-Gi BJJ (Brazílske Jiu Jitsu bez kimona)
-                je bojový šport ktorého cieľom je donútiť súpera vzdať sa.
+                je bojový šport, ktorého cieľom je donútiť súpera vzdať sa.
                 Využívajú sa k tomu techniky označené anglickým výrazom
                 submission, čo sú rôzne druhy škrtení a páčení. Ide primárne o
                 techniku boja na zemi.
@@ -82,11 +83,8 @@ function Home() {
                   budete môcť prísť zacvičiť aj o polnoci. Vybavenie fitka je
                   úplne nové a moderné.
                 </p>
-                <a
-                  className=""
-                  // href="https://www.instagram.com/slovak_grappling_academy/"
-                  target="_blank"
-                >
+
+                <a className="" href="/nonstop/fitness.html">
                   <p className="fitness-sign-button ">ZISTIŤ VIAC</p>
                 </a>
               </div>

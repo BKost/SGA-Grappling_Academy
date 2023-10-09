@@ -1,10 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-background-color: #293241;
+  --secondary-background-color: #3d5a80;
+  --main-text-color: #fff;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.618em;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+div {
+  -ms-overflow-style: none;
+}
+
+div::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  margin: 0;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  min-height: 100vh;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Teko", sans-serif;
+  position: relative;
+}
+
+.fitness-nav {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.812);
+  position: fixed;
+  width: 100%;
+}
+
+.fitness-nav > a {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.fitness-nav > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .fitness-container {
   grid-column: 1/4;
   padding-bottom: 6em;
 }
 
 .fitness-header {
-  border: 1px solid white;
   min-height: 100vh;
   width: 100%;
   background: linear-gradient(
@@ -12,7 +83,7 @@
       rgba(34, 34, 34, 0.7),
       rgba(34, 34, 34, 0.7)
     ),
-    url("../../public/images/nonstop-fitness/panorama_2-min.jpg");
+    url("/images/nonstop-fitness/panorama_2-min.jpg");
 
   background-size: cover;
   background-attachment: fixed;
@@ -69,16 +140,13 @@
 .fitness-coach-card {
   background-color: var(--secondary-background-color);
   padding: 4em 4%;
-  /* border: 1px solid white; */
+
   display: flex;
   justify-content: center;
 }
 
 .coach-about {
-  /* border: 1px solid white; */
   margin-left: 5em;
-
-  /* width: 60%; */
 }
 
 .coach-about > h2,
@@ -87,7 +155,6 @@ h3 {
 }
 
 .coach-about > p {
-  /* font-weight: 400; */
   max-width: 80ch;
 }
 
@@ -98,8 +165,6 @@ h3 {
   }
 
   .coach-image {
-    border: 1px solid white;
-
     margin-top: 3em;
     min-width: 300px;
     align-self: center;
@@ -107,7 +172,7 @@ h3 {
 
   .coach-about {
     max-width: 100%;
-    border: 1px solid white;
+
     margin-left: 0;
   }
 }
@@ -158,7 +223,6 @@ p {
 }
 
 .fitness-gallery-container {
-  /* border: 1px solid white; */
   display: grid;
 
   grid-template-columns: repeat(3, 1fr);

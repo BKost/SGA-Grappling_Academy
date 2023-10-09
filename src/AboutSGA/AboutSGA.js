@@ -25,7 +25,7 @@ function AboutSGA() {
               Hlavným cieľom klubu je vychovávať profesionálnych športovcov a
               pomôcť im na ich ceste na vrchol.
               <br /> Zabezpečujeme najlepšie podmienky pre ich rozvoj vo
-              všetkých oblastiach. Či uz chceš trénovať pre radosť, dostať sa do
+              všetkých oblastiach. Či už chceš trénovať pre radosť, dostať sa do
               formy alebo sa stať profesionálnym zápasníkom, naša akadémia je tu
               pre teba.
             </p>

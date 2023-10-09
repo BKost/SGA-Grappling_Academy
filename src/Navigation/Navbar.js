@@ -7,6 +7,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { AppContext } from "../AppContext";
 import useHover from "../hooks/isHovered";
+// import { Link } from "react-router-dom";
 
 function Navbar() {
   const {
@@ -126,12 +127,16 @@ function Navbar() {
             >
               CENNÍK
             </li>
-            <li
-              // onClick={() => navigate(navigateHomeRef)}
-              className="nav-item"
-            >
-              NONSTOP FITNESS
-            </li>
+            {/* <Link to="/fitness"> */}
+            <a href="/nonstop/fitness.html">
+              <li
+                // onClick={() => navigate(navigateHomeRef)}
+                className="nav-item"
+              >
+                NONSTOP FITNESS
+              </li>
+            </a>
+            {/* </Link> */}
             <li
               onClick={() => {
                 navigate(navigateADCCRef);

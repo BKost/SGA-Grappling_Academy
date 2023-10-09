@@ -1,22 +1,28 @@
-import React from "react";
-import "./fitness.css";
-
-function Fitness() {
-  return (
-    <section className="fitness-container">
-      <header className="fitness-header">
-        <h1 className="fitness-heading">
-          {" "}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./fitness.css" />
+  </head>
+  <body>
+    <section class="fitness-container">
+      <nav class="fitness-nav">
+        <a href="/">Späť na SGA</a>
+      </nav>
+      <header class="fitness-header">
+        <h1 class="fitness-heading">
           <span>JEDINÉ</span>NON STOP FITNESS
           <span>V BANSKEJ BYSTRICI</span>
         </h1>
       </header>
-      <section className="fitness-about">
+      <section class="fitness-about">
         <p>
           Naše <strong> Nonstop Fitness</strong> je prvou voľbou pre aktívny
           životný štýl a cvičenie kedykoľvek, kedy sa vám zachce. NON STOP
-          FITNESS je otvorené 24/7, takže si kľudne môžete ísť zatrénovať{" "}
-          <strong>aj o polnoci</strong>. Po zakúpení permanentky dostanete{" "}
+          FITNESS je otvorené 24/7, takže si kľudne môžete ísť zatrénovať
+          <strong>aj o polnoci</strong>. Po zakúpení permanentky dostanete
           <strong>vlastné kľúče</strong>, čo vám umožňuje prístup k moderným a
           úplne novým priestorom počas celého dňa. S našimi bezkonkurenčne
           nízkymi cenami a možnosťou rôznych typov permanentiek - mesačných,
@@ -39,13 +45,13 @@ function Fitness() {
           našich profesionálnych trénerov.
         </p>
       </section>
-      <section className="fitness-coach-card">
+      <section class="fitness-coach-card">
         <img
-          className="coach-image"
+          class="coach-image"
           src="/images/nonstop-fitness/_MG_1822.jpg"
           alt="Radoslav Madoš"
         />
-        <div className="coach-about">
+        <div class="coach-about">
           <h2>Trénujte pod dohľadom profíkov</h2>
           <h3>Osobný tréner Radoslav Madoš</h3>
           <p>
@@ -66,87 +72,84 @@ function Fitness() {
           </p>
         </div>
       </section>
-      <section className="fitness-pricing">
+      <section class="fitness-pricing">
         <h2>Cenník</h2>
 
-        <div className="price-tags-wrapper">
-          <div className="price-tag">
+        <div class="price-tags-wrapper">
+          <div class="price-tag">
             <h3>Mesačná permanentka</h3>
             <p>25€</p>
           </div>
-          <div className="price-tag">
+          <div class="price-tag">
             <h3>Trojmesačná permanentka</h3>
             <p>60€</p>
           </div>
-          <div className="price-tag">
+          <div class="price-tag">
             <h3>Polročná permanentka</h3>
             <p>100€</p>
           </div>
-          <div className="price-tag">
+          <div class="price-tag">
             <h3>Ročná permanentka</h3>
             <p>160€</p>
           </div>
         </div>
       </section>
-      <section className="fitness-gallery">
+      <section class="fitness-gallery">
         <h2>Ako to u nás vyzerá ?</h2>
-        <div className="fitness-gallery-container">
-          <div className="grid-item">
-            {" "}
+        <div class="fitness-gallery-container">
+          <div class="grid-item">
             <img
-              className="fitness-gallery-image"
+              class="fitness-gallery-image"
               src="/images/nonstop-fitness/_MG_8929-min.jpg"
               alt="Gym equipment"
             />
           </div>
-          <div className="grid-item">
+          <div class="grid-item">
             <img
-              className="fitness-gallery-image"
+              class="fitness-gallery-image"
               src="/images/nonstop-fitness/_MG_8995-min.jpg"
               alt="Gym equipment"
             />
           </div>
-          <div className="grid-item two-columns">
-            {" "}
+          <div class="grid-item two-columns">
             <img
-              className="fitness-gallery-image"
+              class="fitness-gallery-image"
               src="/images/nonstop-fitness/_MG_9078-min.jpg"
               alt="Gym equipment"
             />
           </div>
-          <div className="grid-item two-columns">
+          <div class="grid-item two-columns">
             <img
-              className="fitness-gallery-image"
+              class="fitness-gallery-image"
               src="/images/nonstop-fitness/_MG_9091-min.jpg"
               alt="Gym equipment"
             />
           </div>
-          <div className="grid-item">
+          <div class="grid-item">
             <img
-              className="fitness-gallery-image"
+              class="fitness-gallery-image"
               src="/images/nonstop-fitness/_MG_9203-min.jpg"
               alt="Gym equipment"
             />
           </div>
-          <div className="grid-item two-rows">
-            {" "}
+          <div class="grid-item two-rows">
             <img
-              className="fitness-gallery-image"
+              class="fitness-gallery-image"
               src="/images/nonstop-fitness/_MG_9149-min.jpg"
               alt="Gym equipment"
             />
           </div>
 
-          <div className="grid-item">
+          <div class="grid-item">
             <img
-              className="fitness-gallery-image"
+              class="fitness-gallery-image"
               src="/images/nonstop-fitness/_MG_9265-min.jpg"
               alt="Gym equipment"
             />
           </div>
-          <div className="grid-item">
+          <div class="grid-item">
             <img
-              className="fitness-gallery-image"
+              class="fitness-gallery-image"
               src="/images/nonstop-fitness/_MG_9364-min.jpg"
               alt="Gym equipment"
             />
@@ -154,7 +157,5 @@ function Fitness() {
         </div>
       </section>
     </section>
-  );
-}
-
-export default Fitness;
+  </body>
+</html>

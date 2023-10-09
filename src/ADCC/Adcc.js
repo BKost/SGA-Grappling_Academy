@@ -18,10 +18,10 @@ function Adcc() {
         </div>
         <p className="adcc-text">
           Najväčšia svetová organizácia v Grapplingu je konečne aj na Slovensku
-          a sme hrdí nato, že práve my máme tú česť organizovať pre Vás nadupané
-          turnaje, za ktorými nemusíte cestovať stovky kilometrov! Sleduj
-          instagram ADCC Slovakia, kde sa dozvieš všetko o nás, o turnajoch,
-          rozhodcovských seminároch, atď...
+          a sme hrdí na to, že práve my máme tú česť organizovať pre Vás
+          nadupané turnaje, za ktorými nemusíte cestovať stovky kilometrov!
+          Sleduj instagram ADCC Slovakia, kde sa dozvieš všetko o nás, o
+          turnajoch, rozhodcovských seminároch, atď...
         </p>
       </div>
       <div className="adcc-photos-container">
