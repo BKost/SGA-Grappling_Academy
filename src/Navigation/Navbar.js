@@ -225,14 +225,9 @@ function Navbar() {
             >
               CENNÍK
             </li>
-            <li
-              // onClick={() => {
-              //   navigate(navigateFitnessRef);
-              // }}
-              className="mobile-nav-item"
-            >
-              NONSTOP FITNESS
-            </li>
+            <a href="/nonstop/fitness.html">
+              <li className="mobile-nav-item">NONSTOP FITNESS</li>
+            </a>
             <li
               onClick={() => {
                 navigate(navigateADCCRef);
