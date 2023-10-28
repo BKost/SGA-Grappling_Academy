@@ -24,6 +24,7 @@ function Courses() {
         </a>
       </div>
       <img
+        loading="lazy"
         className="courses-img"
         src="/images/289268031_560886225475848_7356325068166042758_n.jpg"
         alt="Grappling image"

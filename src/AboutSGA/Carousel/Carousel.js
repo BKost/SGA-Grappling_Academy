@@ -115,7 +115,11 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src={"/images/_MG_9565.jpg"} alt="Nino Ondriš" />
+            <img
+              loading="lazy"
+              src={"/images/_MG_9565.jpg"}
+              alt="Nino Ondriš"
+            />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>NINO ONDRIS</h2>
@@ -140,7 +144,11 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9551.jpg" alt="Tomáš Ondriš" />
+            <img
+              loading="lazy"
+              src="/images/Web-Final/_MG_9551.jpg"
+              alt="Tomáš Ondriš"
+            />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>TOMÁŠ ONDRIS</h2>
@@ -165,7 +173,11 @@ function Carousel() {
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9504.jpg" alt="Peter Kováč" />
+            <img
+              loading="lazy"
+              src="/images/Web-Final/_MG_9504.jpg"
+              alt="Peter Kováč"
+            />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>PETER KOVÁČ</h2>
@@ -189,7 +201,7 @@ function Carousel() {
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-first"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9521.jpg" alt="" />
+            <img loading="lazy" src="/images/Web-Final/_MG_9521.jpg" alt="" />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>MICHAL MARUŠKIN</h2>
@@ -214,7 +226,11 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9868.jpg" alt="Adam Hank" />
+            <img
+              loading="lazy"
+              src="/images/Web-Final/_MG_9868.jpg"
+              alt="Adam Hank"
+            />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>ADAM HANK</h2>
@@ -239,7 +255,11 @@ function Carousel() {
           className="slider-item-spacing-wrapper"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9530.jpg" alt="Michal Bušovský" />
+            <img
+              loading="lazy"
+              src="/images/Web-Final/_MG_9530.jpg"
+              alt="Michal Bušovský"
+            />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>MICHAL BUŠOVSKÝ</h2>
@@ -263,7 +283,11 @@ function Carousel() {
           className="slider-item-spacing-wrapper  slider-item-spacing-wrapper-last"
         >
           <div className="slider-item">
-            <img src="/images/Web-Final/_MG_9891.jpg" alt="Michal Žubor" />
+            <img
+              loading="lazy"
+              src="/images/Web-Final/_MG_9891.jpg"
+              alt="Michal Žubor"
+            />
             <div className="about-slider-item">
               <div className="slider-item-text">
                 <h2>MICHAL ŽUBOR</h2>

@@ -27,6 +27,7 @@ function Footer() {
       </div>
 
       <img
+        loading="lazy"
         className="footer-img"
         src="/images/Background.png"
         alt="Footer image"
@@ -43,7 +44,11 @@ function Footer() {
         </div>
 
         <div className="adcc-moto-container">
-          <img src="/images/ADCC_logo.png" alt="Slovak ADCC logo" />
+          <img
+            loading="lazy"
+            src="/images/ADCC_logo.png"
+            alt="Slovak ADCC logo"
+          />
 
           <p>
             "Fight hard, fight fair, and

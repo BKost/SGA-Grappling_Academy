@@ -8,6 +8,7 @@ function Sponsors() {
       <div className="sponsors">
         <a target="_blank" href="https://ememejtalenty.sk/">
           <img
+            loading="lazy"
             src="/images/Sponsors-images/ememej-talenty-logo-final-(1).png"
             alt=""
             className="sponsors-img"
@@ -15,6 +16,7 @@ function Sponsors() {
         </a>
         <a target="_blank" href="https://fightportal.eu/">
           <img
+            loading="lazy"
             src="/images/Sponsors-images/fightportal.png"
             alt=""
             className="sponsors-img"
@@ -22,6 +24,7 @@ function Sponsors() {
         </a>
         <a target="_blank" href="https://www.barnys.sk/">
           <img
+            loading="lazy"
             src="/images/Sponsors-images/Logotyp-Barny_s-R2.png"
             alt=""
             className="sponsors-img"
@@ -29,6 +32,7 @@ function Sponsors() {
         </a>
         <a target="_blank" href="https://www.parketfam.sk/">
           <img
+            loading="lazy"
             src="/images/Sponsors-images/parketfam_logo.png"
             alt=""
             className="sponsors-img"
@@ -36,6 +40,7 @@ function Sponsors() {
         </a>
         <a target="_blank" href="https://pitbullstore.eu/">
           <img
+            loading="lazy"
             src="/images/Sponsors-images/pitbull-black.png"
             alt=""
             className="sponsors-img"
@@ -43,6 +48,7 @@ function Sponsors() {
         </a>
         <a target="_blank" href="https://www.timberwoodsk.com/">
           <img
+            loading="lazy"
             src="/images/Sponsors-images/Timberwood_logo.png"
             alt=""
             className="sponsors-img"
@@ -50,6 +56,7 @@ function Sponsors() {
         </a>
         <a target="_blank" href="https://www.tryenough.work/">
           <img
+            loading="lazy"
             src="/images/Sponsors-images/try enough logo biele(1).png"
             alt=""
             className="sponsors-img"
@@ -57,6 +64,7 @@ function Sponsors() {
         </a>
         <a target="_blank" href="https://fitlineobchod.sk/">
           <img
+            loading="lazy"
             src="/images/Sponsors-images/wwwfitline-(1).png"
             alt=""
             className="sponsors-img"

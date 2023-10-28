@@ -10,6 +10,7 @@ function Adcc() {
       <div className="about-adcc">
         <div className="adcc-headings-wrapper">
           <img
+            loading="lazy"
             className="logo-adcc"
             src="/images/ADCC_logo.png"
             alt="ADCC logo"
@@ -28,6 +29,7 @@ function Adcc() {
         <div className="adcc-photos-column adcc-photos-column-1">
           <div className="adcc-image-wrapper">
             <img
+              loading="lazy"
               src={
                 "/images/adcc-grid/315956845_143382781785089_7945903929798288806_n.jpg"
               }
@@ -37,6 +39,7 @@ function Adcc() {
           </div>
           <div className="adcc-image-wrapper">
             <img
+              loading="lazy"
               src={
                 "/images/adcc-grid/316104535_143998311723536_8283454690020400950_n.jpg"
               }
@@ -46,6 +49,7 @@ function Adcc() {
           </div>
           <div className="adcc-image-wrapper">
             <img
+              loading="lazy"
               src={
                 "/images/adcc-grid/314966486_140676925389008_7435392260590340910_n.jpg"
               }
@@ -58,6 +62,7 @@ function Adcc() {
         <div className="adcc-photos-column adcc-photos-column-2">
           <div className="adcc-image-wrapper">
             <img
+              loading="lazy"
               src="/images/289268031_560886225475848_7356325068166042758_n.jpg"
               alt="Photo 4"
               className="grid-img"
@@ -65,6 +70,7 @@ function Adcc() {
           </div>
           <div className="adcc-image-wrapper">
             <img
+              loading="lazy"
               src={
                 "/images/adcc-grid/316131300_144001198389914_4552423858117053979_n.jpg"
               }
@@ -74,6 +80,7 @@ function Adcc() {
           </div>
           <div className="adcc-image-wrapper">
             <img
+              loading="lazy"
               src="/images/288844552_560559398841864_1914012904678492250_n.jpg"
               alt="Photo 6"
               className="grid-img"

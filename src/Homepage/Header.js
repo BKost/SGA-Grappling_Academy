@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { AppContext } from "../AppContext";
 import "./Header.css";
-// import Smoke from "../Effects/Smoke";
 
 function Header() {
   const { navigateHomeRef } = useContext(AppContext);
@@ -26,7 +25,6 @@ function Header() {
         />
       </div>
       <div className="overlay"></div>
-      {/* <Smoke /> */}
     </header>
   );
 }
