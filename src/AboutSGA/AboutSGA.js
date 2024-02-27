@@ -1,15 +1,13 @@
-import React, { useContext } from "react";
-import { AppContext } from "../AppContext";
+import React from "react";
+// import { AppContext } from "../AppContext";
 import "./AboutSGA.css";
 // import Carousel from "./Carousel/Carousel.js";
 import StatsPoster from "./StatsPoster/StatsPoster.js";
 // import Schedule from "./Schedule/Schedule";
 
 function AboutSGA() {
-  const { navigateSGARef } = useContext(AppContext);
-
   return (
-    <div ref={navigateSGARef} className="about-sga-container">
+    <div id="about" className="about-sga-container">
       <div className="about-sga-upper">
         <div className="about-sga-text-container">
           <h2>O KLUBE SGA</h2>

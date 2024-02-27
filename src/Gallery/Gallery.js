@@ -1,12 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Gallery.css";
-import { AppContext } from "../AppContext";
 
 function Gallery() {
-  const { navigateGalleryRef } = useContext(AppContext);
-
   return (
-    <div ref={navigateGalleryRef} className="gallery-container">
+    <div id="gallery" className="gallery-container">
       <h2>GALÉRIA</h2>
       <div className="gallery-image-container">
         <div className="gallery-column gallery-column-first">

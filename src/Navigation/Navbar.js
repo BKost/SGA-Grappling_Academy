@@ -112,21 +112,30 @@ function Navbar() {
             alt=""
           />
           <ul className="navigation-ul">
-            <li onClick={() => navigate(navigateSGARef)} className="nav-item">
-              O KLUBE
-            </li>
-            <li
-              onClick={() => navigate(navigateTrainingScheduleRef)}
-              className="nav-item"
-            >
-              ROZPIS TRÉNINGOV
-            </li>
-            <li
-              onClick={() => navigate(navigatePricingRef)}
-              className="nav-item"
-            >
-              CENNÍK
-            </li>
+            <a href="#about">
+              <li
+                // onClick={() => navigate(navigateSGARef)}
+                className="nav-item"
+              >
+                O KLUBE
+              </li>
+            </a>
+            <a href="#schedule">
+              <li
+                // onClick={() => navigate(navigateTrainingScheduleRef)}
+                className="nav-item"
+              >
+                ROZPIS TRÉNINGOV
+              </li>
+            </a>
+            <a href="#pricing">
+              <li
+                // onClick={() => navigate(navigatePricingRef)}
+                className="nav-item"
+              >
+                CENNÍK
+              </li>
+            </a>
             {/* <Link to="/fitness"> */}
             <a href="/nonstop/fitness.html">
               <li
@@ -137,26 +146,32 @@ function Navbar() {
               </li>
             </a>
             {/* </Link> */}
-            <li
-              onClick={() => {
-                navigate(navigateADCCRef);
-              }}
-              className="nav-item"
-            >
-              ADCC
-            </li>
-            <li
-              onClick={() => navigate(navigateGalleryRef)}
-              className="nav-item"
-            >
-              GALÉRIA
-            </li>
-            <li
-              onClick={() => navigate(navigateContactRef)}
-              className="nav-item"
-            >
-              KONTAKT
-            </li>
+            <a href="#adcc">
+              <li
+                // onClick={() => {
+                //   navigate(navigateADCCRef);
+                // }}
+                className="nav-item"
+              >
+                ADCC
+              </li>
+            </a>
+            <a href="#gallery">
+              <li
+                // onClick={() => navigate(navigateGalleryRef)}
+                className="nav-item"
+              >
+                GALÉRIA
+              </li>
+            </a>
+            <a href="#contact">
+              <li
+                // onClick={() => navigate(navigateContactRef)}
+                className="nav-item"
+              >
+                KONTAKT
+              </li>
+            </a>
           </ul>
         </nav>
       )}
@@ -202,25 +217,25 @@ function Navbar() {
 
           <ul className="mobile-navigation-ul">
             <li
-              onClick={() => {
-                navigate(navigateSGARef);
-              }}
+              // onClick={() => {
+              //   navigate(navigateSGARef);
+              // }}
               className="mobile-nav-item"
             >
               O KLUBE
             </li>
             <li
-              onClick={() => {
-                navigate(navigateTrainingScheduleRef);
-              }}
+              // onClick={() => {
+              //   navigate(navigateTrainingScheduleRef);
+              // }}
               className="mobile-nav-item"
             >
               ROZPIS TRÉNINGOV
             </li>
             <li
-              onClick={() => {
-                navigate(navigatePricingRef);
-              }}
+              // onClick={() => {
+              //   navigate(navigatePricingRef);
+              // }}
               className="mobile-nav-item"
             >
               CENNÍK
@@ -229,25 +244,25 @@ function Navbar() {
               <li className="mobile-nav-item">NONSTOP FITNESS</li>
             </a>
             <li
-              onClick={() => {
-                navigate(navigateADCCRef);
-              }}
+              // onClick={() => {
+              //   navigate(navigateADCCRef);
+              // }}
               className="mobile-nav-item"
             >
               ADCC
             </li>
             <li
-              onClick={() => {
-                navigate(navigateGalleryRef);
-              }}
+              // onClick={() => {
+              //   navigate(navigateGalleryRef);
+              // }}
               className="mobile-nav-item"
             >
               GALÉRIA
             </li>
             <li
-              onClick={() => {
-                navigate(navigateContactRef);
-              }}
+              // onClick={() => {
+              //   navigate(navigateContactRef);
+              // }}
               className="mobile-nav-item"
             >
               KONTAKT

@@ -1,15 +1,12 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Footer.css";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import { AppContext } from "../AppContext";
 
 function Footer() {
-  const { navigateContactRef } = useContext(AppContext);
-
   return (
-    <footer ref={navigateContactRef} className="footer-container">
+    <footer className="footer-container">
       <h2 className="footer-main-h2">DARUJTE NÁM 2% Z DANÍ</h2>
       <p className="two-percent-paragraph">
         Pomôžete na ceste mladým a nádejným športovcom a nebude vás to stáť ani
@@ -33,7 +30,7 @@ function Footer() {
         alt="Footer image"
       />
 
-      <div className="contact-info-wrapper">
+      <div id="contact" className="contact-info-wrapper">
         <div className="contact-info-container">
           <h3>Kontaktné info:</h3>
 

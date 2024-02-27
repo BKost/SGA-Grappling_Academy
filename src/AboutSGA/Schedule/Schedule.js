@@ -52,7 +52,8 @@ function Schedule() {
 
   return (
     <div
-      ref={navigateTrainingScheduleRef}
+      id="schedule"
+      // ref={navigateTrainingScheduleRef}
       className="training-schedule-container"
     >
       <h2 className="training-schedule-h2">ROZPIS TRÉNINGOV</h2>

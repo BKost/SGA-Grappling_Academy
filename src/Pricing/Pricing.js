@@ -1,12 +1,9 @@
-import React, { useContext } from "react";
-import { AppContext } from "../AppContext";
+import React from "react";
 import "./Pricing.css";
 
 function Pricing() {
-  const { navigatePricingRef } = useContext(AppContext);
-
   return (
-    <div ref={navigatePricingRef} className="pricing-container">
+    <div id="pricing" className="pricing-container">
       <h3>Cenník</h3>
       <div className="pricing-text">
         <p>

@@ -1,12 +1,9 @@
-import React, { useContext } from "react";
-import { AppContext } from "../AppContext";
+import React from "react";
 import "./Adcc.css";
 
 function Adcc() {
-  const { navigateADCCRef } = useContext(AppContext);
-
   return (
-    <div ref={navigateADCCRef} className="adcc-container">
+    <div id="adcc" className="adcc-container">
       <div className="about-adcc">
         <div className="adcc-headings-wrapper">
           <img
