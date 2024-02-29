@@ -67,19 +67,25 @@ function Carousel() {
     function updateBtnRight() {
       setBtnRightHovered((prev) => !prev);
     }
+    if (btnLeftRef.current) {
+      btnLeftRef.current.addEventListener("mouseenter", updateBtnLeft);
+      btnLeftRef.current.addEventListener("mouseleave", updateBtnLeft);
+    }
 
-    btnLeftRef.current.addEventListener("mouseenter", updateBtnLeft);
-    btnLeftRef.current.addEventListener("mouseleave", updateBtnLeft);
-
-    btnRightRef.current.addEventListener("mouseenter", updateBtnRight);
-    btnRightRef.current.addEventListener("mouseleave", updateBtnRight);
+    if (btnRightRef.current) {
+      btnRightRef.current.addEventListener("mouseenter", updateBtnRight);
+      btnRightRef.current.addEventListener("mouseleave", updateBtnRight);
+    }
 
     return () => {
-      btnLeftRef.current.removeEventListener("mouseenter", updateBtnLeft);
-      btnLeftRef.current.removeEventListener("mouseleave", updateBtnLeft);
-
-      btnRightRef.current.removeEventListener("mouseenter", updateBtnRight);
-      btnRightRef.current.removeEventListener("mouseleave", updateBtnRight);
+      if (btnLeftRef.current) {
+        btnLeftRef.current.removeEventListener("mouseenter", updateBtnLeft);
+        btnLeftRef.current.removeEventListener("mouseleave", updateBtnLeft);
+      }
+      if (btnRightRef.current) {
+        btnRightRef.current.removeEventListener("mouseenter", updateBtnRight);
+        btnRightRef.current.removeEventListener("mouseleave", updateBtnRight);
+      }
     };
   }, []);
 

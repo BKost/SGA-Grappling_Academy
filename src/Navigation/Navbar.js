@@ -7,20 +7,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { AppContext } from "../AppContext";
 import useHover from "../hooks/isHovered";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-  const {
-    logoOnScreen,
-    navigateContactRef,
-    navigateHomeRef,
-    navigateADCCRef,
-    navigateSGARef,
-    navigateGalleryRef,
-    navigateFitnessRef,
-    navigateTrainingScheduleRef,
-    navigatePricingRef,
-  } = useContext(AppContext);
+  const { logoOnScreen } = useContext(AppContext);
 
   const { screenWidth } = useScreenWidth();
   const { scrollDirection, currentScrollPos } = useScreenScroll();
@@ -85,15 +75,15 @@ function Navbar() {
     setMenuOpened(!menuOpened);
   }
 
-  function navigate(location, offset = 90) {
-    const elementRectTop = location?.current.getBoundingClientRect().top;
-    const bodyRectTop = document.body.getBoundingClientRect().top;
+  // function navigate(location, offset = 90) {
+  //   const elementRectTop = location?.current.getBoundingClientRect().top;
+  //   const bodyRectTop = document.body.getBoundingClientRect().top;
 
-    window.scrollTo({
-      behavior: "smooth",
-      top: elementRectTop - bodyRectTop - offset,
-    });
-  }
+  //   window.scrollTo({
+  //     behavior: "smooth",
+  //     top: elementRectTop - bodyRectTop - offset,
+  //   });
+  // }
 
   return (
     <div
@@ -136,16 +126,14 @@ function Navbar() {
                 CENNÍK
               </li>
             </a>
-            {/* <Link to="/fitness"> */}
-            <a href="/nonstop/fitness.html">
+            <Link to="/nonstop">
               <li
                 // onClick={() => navigate(navigateHomeRef)}
                 className="nav-item"
               >
                 NONSTOP FITNESS
               </li>
-            </a>
-            {/* </Link> */}
+            </Link>
             <a href="#adcc">
               <li
                 // onClick={() => {
