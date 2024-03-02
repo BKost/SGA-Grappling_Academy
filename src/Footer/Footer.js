@@ -74,6 +74,7 @@ function Footer() {
           <FacebookIcon className="footer-icon" fontSize="large" />
         </a>
       </div>
+      {/* <small>Made by: Bohdan Kostúrik - eonscript@gmail.com</small> */}
     </footer>
   );
 }
