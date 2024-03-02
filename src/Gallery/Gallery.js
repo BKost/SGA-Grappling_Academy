@@ -22,7 +22,7 @@ function Gallery() {
             />
           </div>
           <div className="gallery-image-wrapper">
-            <img loading="lazy" src="/images/sga.jpeg" alt="Grappling image" />
+            <img loading="lazy" src="/images/sga.jpg" alt="Grappling image" />
           </div>
           <div className="gallery-image-wrapper">
             <img

@@ -65,12 +65,19 @@ body {
 .fitness-header {
   min-height: 100vh;
   width: 100%;
+  background-image: linear-gradient(
+      0deg,
+      rgba(34, 34, 34, 0.7),
+      rgba(34, 34, 34, 0.7)
+    ),
+    url("../../public/images/nonstop-fitness/panorama_2-min.jpg");
+  /* C:\Users\kostu\OneDrive\Počítač\SGA - project\sga-web\public\images */
   /* background-image: linear-gradient(
       0deg,
       rgba(34, 34, 34, 0.7),
       rgba(34, 34, 34, 0.7)
     ),
-    url("/images/nonstop-fitness/panorama_2-min.jpg"); */
+    url("../../public/nonstop/images/nonstop-fitness/panorama_2-min.jpg"); */
 
   background-size: cover;
   background-attachment: fixed;

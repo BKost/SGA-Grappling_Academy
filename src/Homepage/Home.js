@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -29,7 +28,7 @@ function Home() {
         <div className="box-picture-on-right">
           <img
             src="/images/290925330_560885832142554_9108560897003858919_n.jpg"
-            alt=""
+            alt="Wrestling image"
             className="image-right"
           />
 
