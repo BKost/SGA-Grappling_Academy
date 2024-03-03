@@ -75,16 +75,6 @@ function Navbar() {
     setMenuOpened(!menuOpened);
   }
 
-  // function navigate(location, offset = 90) {
-  //   const elementRectTop = location?.current.getBoundingClientRect().top;
-  //   const bodyRectTop = document.body.getBoundingClientRect().top;
-
-  //   window.scrollTo({
-  //     behavior: "smooth",
-  //     top: elementRectTop - bodyRectTop - offset,
-  //   });
-  // }
-
   return (
     <div
       ref={hoverRef}
@@ -99,66 +89,29 @@ function Navbar() {
               currentScrollPos > 10 && " navbar-logo-opened"
             }`}
             src="/images/Web-Final/SGA-Logo.png"
-            alt=""
+            alt="SGA-logo"
           />
           <ul className="navigation-ul">
             <a href="#about">
-              <li
-                // onClick={() => navigate(navigateSGARef)}
-                className="nav-item"
-              >
-                O KLUBE
-              </li>
+              <li className="nav-item">O KLUBE</li>
             </a>
             <a href="#schedule">
-              <li
-                // onClick={() => navigate(navigateTrainingScheduleRef)}
-                className="nav-item"
-              >
-                ROZPIS TRÉNINGOV
-              </li>
+              <li className="nav-item">ROZPIS TRÉNINGOV</li>
             </a>
             <a href="#pricing">
-              <li
-                // onClick={() => navigate(navigatePricingRef)}
-                className="nav-item"
-              >
-                CENNÍK
-              </li>
+              <li className="nav-item">CENNÍK</li>
             </a>
-            <Link to="/nonstop">
-              <li
-                // onClick={() => navigate(navigateHomeRef)}
-                className="nav-item"
-              >
-                NONSTOP FITNESS
-              </li>
+            <Link to="nonstop">
+              <li className="nav-item">NONSTOP FITNESS</li>
             </Link>
             <a href="#adcc">
-              <li
-                // onClick={() => {
-                //   navigate(navigateADCCRef);
-                // }}
-                className="nav-item"
-              >
-                ADCC
-              </li>
+              <li className="nav-item">ADCC</li>
             </a>
             <a href="#gallery">
-              <li
-                // onClick={() => navigate(navigateGalleryRef)}
-                className="nav-item"
-              >
-                GALÉRIA
-              </li>
+              <li className="nav-item">GALÉRIA</li>
             </a>
             <a href="#contact">
-              <li
-                // onClick={() => navigate(navigateContactRef)}
-                className="nav-item"
-              >
-                KONTAKT
-              </li>
+              <li className="nav-item">KONTAKT</li>
             </a>
           </ul>
         </nav>
@@ -204,57 +157,32 @@ function Navbar() {
           ></div>
 
           <ul className="mobile-navigation-ul">
-            <li
-              // onClick={() => {
-              //   navigate(navigateSGARef);
-              // }}
-              className="mobile-nav-item"
-            >
-              O KLUBE
-            </li>
-            <li
-              // onClick={() => {
-              //   navigate(navigateTrainingScheduleRef);
-              // }}
-              className="mobile-nav-item"
-            >
-              ROZPIS TRÉNINGOV
-            </li>
-            <li
-              // onClick={() => {
-              //   navigate(navigatePricingRef);
-              // }}
-              className="mobile-nav-item"
-            >
-              CENNÍK
-            </li>
-            <a href="/nonstop/fitness.html">
-              <li className="mobile-nav-item">NONSTOP FITNESS</li>
+            <a href="#about">
+              <li className="mobile-nav-item">O KLUBE</li>
             </a>
-            <li
-              // onClick={() => {
-              //   navigate(navigateADCCRef);
-              // }}
-              className="mobile-nav-item"
-            >
-              ADCC
-            </li>
-            <li
-              // onClick={() => {
-              //   navigate(navigateGalleryRef);
-              // }}
-              className="mobile-nav-item"
-            >
-              GALÉRIA
-            </li>
-            <li
-              // onClick={() => {
-              //   navigate(navigateContactRef);
-              // }}
-              className="mobile-nav-item"
-            >
-              KONTAKT
-            </li>
+            <a href="#schedule">
+              {" "}
+              <li className="mobile-nav-item">ROZPIS TRÉNINGOV</li>
+            </a>
+            <a href="#pricing">
+              <li className="mobile-nav-item">CENNÍK</li>
+            </a>
+
+            <Link to="nonstop">
+              <li className="mobile-nav-item">NONSTOP FITNESS</li>
+            </Link>
+            <a href="#adcc">
+              <li className="mobile-nav-item">ADCC</li>
+            </a>
+
+            <a href="#gallery">
+              {" "}
+              <li className="mobile-nav-item">GALÉRIA</li>
+            </a>
+
+            <a href="#contact">
+              <li className="mobile-nav-item">KONTAKT</li>
+            </a>
           </ul>
         </nav>
       )}
